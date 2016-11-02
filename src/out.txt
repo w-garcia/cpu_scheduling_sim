@@ -1,0 +1,2113 @@
+ /Context Switch TIME=0
+| Running process: P0
+| Ready Queue: [P1, Burst: 18][P2, Burst: 6][P3, Burst: 17][P4, Burst: 5][P5, Burst: 10][P6, Burst: 21][P7, Burst: 11]
+| IO Status: 
+| Processes completed: 
+
+ /Context Switch TIME=4
+| Running process: P1
+| Ready Queue: [P2, Burst: 6][P3, Burst: 17][P4, Burst: 5][P5, Burst: 10][P6, Burst: 21][P7, Burst: 11]
+| IO Status: [P0, Remain: 24]
+| Processes completed: 
+
+ /Context Switch TIME=22
+| Running process: P2
+| Ready Queue: [P3, Burst: 17][P4, Burst: 5][P5, Burst: 10][P6, Burst: 21][P7, Burst: 11]
+| IO Status: [P0, Remain: 6][P1, Remain: 31]
+| Processes completed: 
+
+ /Context Switch TIME=28
+| Running process: P3
+| Ready Queue: [P4, Burst: 5][P5, Burst: 10][P6, Burst: 21][P7, Burst: 11][P0, Burst: 5]
+| IO Status: [P1, Remain: 25][P2, Remain: 18]
+| Processes completed: 
+
+ /Context Switch TIME=45
+| Running process: P4
+| Ready Queue: [P5, Burst: 10][P6, Burst: 21][P7, Burst: 11][P0, Burst: 5]
+| IO Status: [P1, Remain: 8][P2, Remain: 1][P3, Remain: 42]
+| Processes completed: 
+
+ /Context Switch TIME=50
+| Running process: P5
+| Ready Queue: [P6, Burst: 21][P7, Burst: 11][P0, Burst: 5][P2, Burst: 4]
+| IO Status: [P1, Remain: 3][P3, Remain: 37][P4, Remain: 81]
+| Processes completed: 
+
+ /Context Switch TIME=60
+| Running process: P6
+| Ready Queue: [P7, Burst: 11][P0, Burst: 5][P2, Burst: 4][P1, Burst: 19]
+| IO Status: [P3, Remain: 27][P4, Remain: 71][P5, Remain: 35]
+| Processes completed: 
+
+ /Context Switch TIME=81
+| Running process: P7
+| Ready Queue: [P0, Burst: 5][P2, Burst: 4][P1, Burst: 19]
+| IO Status: [P3, Remain: 6][P4, Remain: 50][P5, Remain: 14][P6, Remain: 51]
+| Processes completed: 
+
+ /Context Switch TIME=92
+| Running process: P0
+| Ready Queue: [P2, Burst: 4][P1, Burst: 19][P3, Burst: 19]
+| IO Status: [P4, Remain: 39][P5, Remain: 3][P6, Remain: 40][P7, Remain: 52]
+| Processes completed: 
+
+ /Context Switch TIME=97
+| Running process: P2
+| Ready Queue: [P1, Burst: 19][P3, Burst: 19][P5, Burst: 12]
+| IO Status: [P0, Remain: 73][P4, Remain: 34][P6, Remain: 35][P7, Remain: 47]
+| Processes completed: 
+
+ /Context Switch TIME=101
+| Running process: P1
+| Ready Queue: [P3, Burst: 19][P5, Burst: 12]
+| IO Status: [P0, Remain: 69][P2, Remain: 21][P4, Remain: 30][P6, Remain: 31][P7, Remain: 43]
+| Processes completed: 
+
+ /Context Switch TIME=120
+| Running process: P3
+| Ready Queue: [P5, Burst: 12]
+| IO Status: [P0, Remain: 50][P1, Remain: 35][P2, Remain: 2][P4, Remain: 11][P6, Remain: 12][P7, Remain: 24]
+| Processes completed: 
+
+ /Context Switch TIME=139
+| Running process: P5
+| Ready Queue: [P2, Burst: 7][P4, Burst: 4][P6, Burst: 23]
+| IO Status: [P0, Remain: 31][P1, Remain: 16][P3, Remain: 55][P7, Remain: 5]
+| Processes completed: 
+
+ /Context Switch TIME=151
+| Running process: P2
+| Ready Queue: [P4, Burst: 4][P6, Burst: 23][P7, Burst: 14]
+| IO Status: [P0, Remain: 19][P1, Remain: 4][P3, Remain: 43][P5, Remain: 41]
+| Processes completed: 
+
+ /Context Switch TIME=158
+| Running process: P4
+| Ready Queue: [P6, Burst: 23][P7, Burst: 14][P1, Burst: 11]
+| IO Status: [P0, Remain: 12][P2, Remain: 19][P3, Remain: 36][P5, Remain: 34]
+| Processes completed: 
+
+ /Context Switch TIME=162
+| Running process: P6
+| Ready Queue: [P7, Burst: 14][P1, Burst: 11]
+| IO Status: [P0, Remain: 8][P2, Remain: 15][P3, Remain: 32][P4, Remain: 82][P5, Remain: 30]
+| Processes completed: 
+
+ /Context Switch TIME=185
+| Running process: P7
+| Ready Queue: [P1, Burst: 11][P0, Burst: 3][P2, Burst: 4]
+| IO Status: [P3, Remain: 9][P4, Remain: 59][P5, Remain: 7][P6, Remain: 53]
+| Processes completed: 
+
+ /Context Switch TIME=199
+| Running process: P1
+| Ready Queue: [P0, Burst: 3][P2, Burst: 4][P5, Burst: 14][P3, Burst: 20]
+| IO Status: [P4, Remain: 45][P6, Remain: 39][P7, Remain: 42]
+| Processes completed: 
+
+ /Context Switch TIME=210
+| Running process: P0
+| Ready Queue: [P2, Burst: 4][P5, Burst: 14][P3, Burst: 20]
+| IO Status: [P1, Remain: 42][P4, Remain: 34][P6, Remain: 28][P7, Remain: 31]
+| Processes completed: 
+
+ /Context Switch TIME=213
+| Running process: P2
+| Ready Queue: [P5, Burst: 14][P3, Burst: 20]
+| IO Status: [P0, Remain: 31][P1, Remain: 39][P4, Remain: 31][P6, Remain: 25][P7, Remain: 28]
+| Processes completed: 
+
+ /Context Switch TIME=217
+| Running process: P5
+| Ready Queue: [P3, Burst: 20]
+| IO Status: [P0, Remain: 27][P1, Remain: 35][P2, Remain: 16][P4, Remain: 27][P6, Remain: 21][P7, Remain: 24]
+| Processes completed: 
+
+ /Context Switch TIME=231
+| Running process: P3
+| Ready Queue: 
+| IO Status: [P0, Remain: 13][P1, Remain: 21][P2, Remain: 2][P4, Remain: 13][P5, Remain: 33][P6, Remain: 7][P7, Remain: 10]
+| Processes completed: 
+
+ /Context Switch TIME=251
+| Running process: P2
+| Ready Queue: [P6, Burst: 24][P7, Burst: 15][P0, Burst: 5][P4, Burst: 5]
+| IO Status: [P1, Remain: 1][P3, Remain: 54][P5, Remain: 13]
+| Processes completed: 
+
+ /Context Switch TIME=256
+| Running process: P6
+| Ready Queue: [P7, Burst: 15][P0, Burst: 5][P4, Burst: 5][P1, Burst: 18]
+| IO Status: [P2, Remain: 29][P3, Remain: 49][P5, Remain: 8]
+| Processes completed: 
+
+ /Context Switch TIME=280
+| Running process: P7
+| Ready Queue: [P0, Burst: 5][P4, Burst: 5][P1, Burst: 18][P5, Burst: 11]
+| IO Status: [P2, Remain: 5][P3, Remain: 25][P6, Remain: 61]
+| Processes completed: 
+
+ /Context Switch TIME=295
+| Running process: P0
+| Ready Queue: [P4, Burst: 5][P1, Burst: 18][P5, Burst: 11][P2, Burst: 7]
+| IO Status: [P3, Remain: 10][P6, Remain: 46][P7, Remain: 31]
+| Processes completed: 
+
+ /Context Switch TIME=300
+| Running process: P4
+| Ready Queue: [P1, Burst: 18][P5, Burst: 11][P2, Burst: 7]
+| IO Status: [P0, Remain: 27][P3, Remain: 5][P6, Remain: 41][P7, Remain: 26]
+| Processes completed: 
+
+ /Context Switch TIME=305
+| Running process: P1
+| Ready Queue: [P5, Burst: 11][P2, Burst: 7][P3, Burst: 17]
+| IO Status: [P0, Remain: 22][P4, Remain: 71][P6, Remain: 36][P7, Remain: 21]
+| Processes completed: 
+
+ /Context Switch TIME=323
+| Running process: P5
+| Ready Queue: [P2, Burst: 7][P3, Burst: 17]
+| IO Status: [P0, Remain: 4][P1, Remain: 43][P4, Remain: 53][P6, Remain: 18][P7, Remain: 3]
+| Processes completed: 
+
+ /Context Switch TIME=334
+| Running process: P2
+| Ready Queue: [P3, Burst: 17][P7, Burst: 17][P0, Burst: 4]
+| IO Status: [P1, Remain: 32][P4, Remain: 42][P5, Remain: 32][P6, Remain: 7]
+| Processes completed: 
+
+ /Context Switch TIME=341
+| Running process: P3
+| Ready Queue: [P7, Burst: 17][P0, Burst: 4][P6, Burst: 22]
+| IO Status: [P1, Remain: 25][P2, Remain: 21][P4, Remain: 35][P5, Remain: 25]
+| Processes completed: 
+
+ /Context Switch TIME=358
+| Running process: P7
+| Ready Queue: [P0, Burst: 4][P6, Burst: 22]
+| IO Status: [P1, Remain: 8][P2, Remain: 4][P3, Remain: 52][P4, Remain: 18][P5, Remain: 8]
+| Processes completed: 
+
+ /Context Switch TIME=375
+| Running process: P0
+| Ready Queue: [P6, Burst: 22][P2, Burst: 8][P1, Burst: 19][P5, Burst: 15]
+| IO Status: [P3, Remain: 35][P4, Remain: 1][P7, Remain: 21]
+| Processes completed: 
+
+ /Context Switch TIME=379
+| Running process: P6
+| Ready Queue: [P2, Burst: 8][P1, Burst: 19][P5, Burst: 15][P4, Burst: 3]
+| IO Status: [P0, Remain: 33][P3, Remain: 31][P7, Remain: 17]
+| Processes completed: 
+
+ /Context Switch TIME=401
+| Running process: P2
+| Ready Queue: [P1, Burst: 19][P5, Burst: 15][P4, Burst: 3][P7, Burst: 16]
+| IO Status: [P0, Remain: 11][P3, Remain: 9][P6, Remain: 31]
+| Processes completed: 
+
+ /Context Switch TIME=409
+| Running process: P1
+| Ready Queue: [P5, Burst: 15][P4, Burst: 3][P7, Burst: 16]
+| IO Status: [P0, Remain: 3][P2, Remain: 22][P3, Remain: 1][P6, Remain: 23]
+| Processes completed: 
+
+ /Context Switch TIME=428
+| Running process: P5
+| Ready Queue: [P4, Burst: 3][P7, Burst: 16][P3, Burst: 15][P0, Burst: 6]
+| IO Status: [P1, Remain: 47][P2, Remain: 3][P6, Remain: 4]
+| Processes completed: 
+
+ /Context Switch TIME=443
+| Running process: P4
+| Ready Queue: [P7, Burst: 16][P3, Burst: 15][P0, Burst: 6][P2, Burst: 6][P6, Burst: 21]
+| IO Status: [P1, Remain: 32][P5, Remain: 41]
+| Processes completed: 
+
+ /Context Switch TIME=446
+| Running process: P7
+| Ready Queue: [P3, Burst: 15][P0, Burst: 6][P2, Burst: 6][P6, Burst: 21]
+| IO Status: [P1, Remain: 29][P4, Remain: 61][P5, Remain: 38]
+| Processes completed: 
+
+ /Context Switch TIME=462
+| Running process: P3
+| Ready Queue: [P0, Burst: 6][P2, Burst: 6][P6, Burst: 21]
+| IO Status: [P1, Remain: 13][P4, Remain: 45][P5, Remain: 22][P7, Remain: 43]
+| Processes completed: 
+
+ /Context Switch TIME=477
+| Running process: P0
+| Ready Queue: [P2, Burst: 6][P6, Burst: 21][P1, Burst: 18]
+| IO Status: [P3, Remain: 67][P4, Remain: 30][P5, Remain: 7][P7, Remain: 28]
+| Processes completed: 
+
+ /Context Switch TIME=483
+| Running process: P2
+| Ready Queue: [P6, Burst: 21][P1, Burst: 18]
+| IO Status: [P0, Remain: 43][P3, Remain: 61][P4, Remain: 24][P5, Remain: 1][P7, Remain: 22]
+| Processes completed: 
+
+ /Context Switch TIME=489
+| Running process: P6
+| Ready Queue: [P1, Burst: 18][P5, Burst: 13]
+| IO Status: [P0, Remain: 37][P2, Remain: 24][P3, Remain: 55][P4, Remain: 18][P7, Remain: 16]
+| Processes completed: 
+
+ /Context Switch TIME=510
+| Running process: P1
+| Ready Queue: [P5, Burst: 13][P7, Burst: 12][P4, Burst: 5]
+| IO Status: [P0, Remain: 16][P2, Remain: 3][P3, Remain: 34][P6, Remain: 43]
+| Processes completed: 
+
+ /Context Switch TIME=528
+| Running process: P5
+| Ready Queue: [P7, Burst: 12][P4, Burst: 5][P2, Burst: 5][P0, Burst: 4]
+| IO Status: [P1, Remain: 43][P3, Remain: 16][P6, Remain: 25]
+| Processes completed: 
+
+ /Context Switch TIME=541
+| Running process: P7
+| Ready Queue: [P4, Burst: 5][P2, Burst: 5][P0, Burst: 4]
+| IO Status: [P1, Remain: 30][P3, Remain: 3][P5, Remain: 29][P6, Remain: 12]
+| Processes completed: 
+
+ /Context Switch TIME=553
+| Running process: P4
+| Ready Queue: [P2, Burst: 5][P0, Burst: 4][P3, Burst: 12][P6, Burst: 20]
+| IO Status: [P1, Remain: 18][P5, Remain: 17][P7, Remain: 31]
+| Processes completed: 
+
+ /Context Switch TIME=558
+| Running process: P2
+| Ready Queue: [P0, Burst: 4][P3, Burst: 12][P6, Burst: 20]
+| IO Status: [P1, Remain: 13][P4, Remain: 62][P5, Remain: 12][P7, Remain: 26]
+| Processes completed: 
+
+ /Context Switch TIME=563
+| Running process: P0
+| Ready Queue: [P3, Burst: 12][P6, Burst: 20]
+| IO Status: [P1, Remain: 8][P4, Remain: 57][P5, Remain: 7][P7, Remain: 21]
+| Processes completed: [P2]
+
+ /Context Switch TIME=567
+| Running process: P3
+| Ready Queue: [P6, Burst: 20]
+| IO Status: [P0, Remain: 64][P1, Remain: 4][P4, Remain: 53][P5, Remain: 3][P7, Remain: 17]
+| Processes completed: [P2]
+
+ /Context Switch TIME=579
+| Running process: P6
+| Ready Queue: [P5, Burst: 11][P1, Burst: 17]
+| IO Status: [P0, Remain: 52][P3, Remain: 72][P4, Remain: 41][P7, Remain: 5]
+| Processes completed: [P2]
+
+ /Context Switch TIME=599
+| Running process: P5
+| Ready Queue: [P1, Burst: 17][P7, Burst: 13]
+| IO Status: [P0, Remain: 32][P3, Remain: 52][P4, Remain: 21]
+| Processes completed: [P2][P6]
+
+ /Context Switch TIME=610
+| Running process: P1
+| Ready Queue: [P7, Burst: 13]
+| IO Status: [P0, Remain: 21][P3, Remain: 41][P4, Remain: 10]
+| Processes completed: [P2][P5][P6]
+
+ /Context Switch TIME=627
+| Running process: P7
+| Ready Queue: [P4, Burst: 4]
+| IO Status: [P0, Remain: 4][P1, Remain: 51][P3, Remain: 24]
+| Processes completed: [P2][P5][P6]
+
+ /Context Switch TIME=640
+| Running process: P4
+| Ready Queue: [P0, Burst: 5]
+| IO Status: [P1, Remain: 38][P3, Remain: 11][P7, Remain: 32]
+| Processes completed: [P2][P5][P6]
+
+ /Context Switch TIME=644
+| Running process: P0
+| Ready Queue: 
+| IO Status: [P1, Remain: 34][P3, Remain: 7][P4, Remain: 51][P7, Remain: 28]
+| Processes completed: [P2][P5][P6]
+
+ /Context Switch TIME=650
+| Running process: P3
+| Ready Queue: 
+| IO Status: [P0, Remain: 17][P1, Remain: 27][P4, Remain: 44][P7, Remain: 21]
+| Processes completed: [P2][P5][P6]
+
+ /Context Switch TIME=667
+| Running process: P0
+| Ready Queue: 
+| IO Status: [P1, Remain: 10][P3, Remain: 64][P4, Remain: 27][P7, Remain: 4]
+| Processes completed: [P2][P5][P6]
+
+ /Context Switch TIME=671
+| Running process: P7
+| Ready Queue: 
+| IO Status: [P1, Remain: 6][P3, Remain: 60][P4, Remain: 23]
+| Processes completed: [P0][P2][P5][P6]
+
+ /Context Switch TIME=687
+| Running process: P1
+| Ready Queue: 
+| IO Status: [P3, Remain: 45][P4, Remain: 8]
+| Processes completed: [P0][P2][P5][P6][P7]
+
+ /Context Switch TIME=706
+| Running process: P4
+| Ready Queue: 
+| IO Status: [P1, Remain: 32][P3, Remain: 26]
+| Processes completed: [P0][P2][P5][P6][P7]
+
+ /Context Switch TIME=731
+| Running process: P3
+| Ready Queue: 
+| IO Status: [P1, Remain: 6][P4, Remain: 54]
+| Processes completed: [P0][P2][P5][P6][P7]
+
+ /Context Switch TIME=746
+| Running process: P1
+| Ready Queue: 
+| IO Status: [P4, Remain: 40]
+| Processes completed: [P0][P2][P3][P5][P6][P7]
+
+ /Context Switch TIME=785
+| Running process: P4
+| Ready Queue: 
+| IO Status: 
+| Processes completed: [P0][P1][P2][P3][P5][P6][P7]
+
+ /Context Switch TIME=850
+| Running process: P4
+| Ready Queue: 
+| IO Status: 
+| Processes completed: [P0][P1][P2][P3][P5][P6][P7]
+
+ /Context Switch TIME=895
+| Running process: P4
+| Ready Queue: 
+| IO Status: 
+| Processes completed: [P0][P1][P2][P3][P5][P6][P7]
+
+FCFS(): Ucpu: 0.8201997780244173, WT: 285.875, TR: 691.5, R: 36.25
+-----------------------------------------
+
+ /Context Switch TIME=0
+| Running process: P0
+| Ready Queue: [P1, Burst: 18][P2, Burst: 6][P3, Burst: 17][P4, Burst: 5][P5, Burst: 10][P6, Burst: 21][P7, Burst: 11]
+| IO Status: 
+| Processes completed: 
+
+ /Context Switch TIME=4
+| Running process: P4
+| Ready Queue: [P1, Burst: 18][P2, Burst: 6][P3, Burst: 17][P5, Burst: 10][P6, Burst: 21][P7, Burst: 11]
+| IO Status: [P0, Remain: 24]
+| Processes completed: 
+
+ /Context Switch TIME=9
+| Running process: P2
+| Ready Queue: [P1, Burst: 18][P3, Burst: 17][P5, Burst: 10][P6, Burst: 21][P7, Burst: 11]
+| IO Status: [P0, Remain: 19][P4, Remain: 81]
+| Processes completed: 
+
+ /Context Switch TIME=15
+| Running process: P5
+| Ready Queue: [P1, Burst: 18][P3, Burst: 17][P6, Burst: 21][P7, Burst: 11]
+| IO Status: [P0, Remain: 13][P2, Remain: 18][P4, Remain: 75]
+| Processes completed: 
+
+ /Context Switch TIME=25
+| Running process: P7
+| Ready Queue: [P1, Burst: 18][P3, Burst: 17][P6, Burst: 21]
+| IO Status: [P0, Remain: 3][P2, Remain: 8][P4, Remain: 65][P5, Remain: 35]
+| Processes completed: 
+
+ /Context Switch TIME=36
+| Running process: P2
+| Ready Queue: [P1, Burst: 18][P3, Burst: 17][P6, Burst: 21][P0, Burst: 5]
+| IO Status: [P4, Remain: 54][P5, Remain: 24][P7, Remain: 52]
+| Processes completed: 
+
+ /Context Switch TIME=40
+| Running process: P0
+| Ready Queue: [P1, Burst: 18][P3, Burst: 17][P6, Burst: 21]
+| IO Status: [P2, Remain: 21][P4, Remain: 50][P5, Remain: 20][P7, Remain: 48]
+| Processes completed: 
+
+ /Context Switch TIME=45
+| Running process: P3
+| Ready Queue: [P1, Burst: 18][P6, Burst: 21]
+| IO Status: [P0, Remain: 73][P2, Remain: 16][P4, Remain: 45][P5, Remain: 15][P7, Remain: 43]
+| Processes completed: 
+
+ /Context Switch TIME=62
+| Running process: P2
+| Ready Queue: [P1, Burst: 18][P6, Burst: 21][P5, Burst: 12]
+| IO Status: [P0, Remain: 56][P3, Remain: 42][P4, Remain: 28][P7, Remain: 26]
+| Processes completed: 
+
+ /Context Switch TIME=69
+| Running process: P5
+| Ready Queue: [P1, Burst: 18][P6, Burst: 21]
+| IO Status: [P0, Remain: 49][P2, Remain: 19][P3, Remain: 35][P4, Remain: 21][P7, Remain: 19]
+| Processes completed: 
+
+ /Context Switch TIME=81
+| Running process: P1
+| Ready Queue: [P6, Burst: 21]
+| IO Status: [P0, Remain: 37][P2, Remain: 7][P3, Remain: 23][P4, Remain: 9][P5, Remain: 41][P7, Remain: 7]
+| Processes completed: 
+
+ /Context Switch TIME=99
+| Running process: P2
+| Ready Queue: [P6, Burst: 21][P7, Burst: 14][P4, Burst: 4]
+| IO Status: [P0, Remain: 19][P1, Remain: 31][P3, Remain: 5][P5, Remain: 23]
+| Processes completed: 
+
+ /Context Switch TIME=103
+| Running process: P4
+| Ready Queue: [P6, Burst: 21][P7, Burst: 14]
+| IO Status: [P0, Remain: 15][P1, Remain: 27][P2, Remain: 16][P3, Remain: 1][P5, Remain: 19]
+| Processes completed: 
+
+ /Context Switch TIME=107
+| Running process: P7
+| Ready Queue: [P6, Burst: 21][P3, Burst: 19]
+| IO Status: [P0, Remain: 11][P1, Remain: 23][P2, Remain: 12][P4, Remain: 82][P5, Remain: 15]
+| Processes completed: 
+
+ /Context Switch TIME=121
+| Running process: P0
+| Ready Queue: [P6, Burst: 21][P3, Burst: 19][P2, Burst: 5]
+| IO Status: [P1, Remain: 9][P4, Remain: 68][P5, Remain: 1][P7, Remain: 42]
+| Processes completed: 
+
+ /Context Switch TIME=124
+| Running process: P2
+| Ready Queue: [P6, Burst: 21][P3, Burst: 19][P5, Burst: 14]
+| IO Status: [P0, Remain: 31][P1, Remain: 6][P4, Remain: 65][P7, Remain: 39]
+| Processes completed: 
+
+ /Context Switch TIME=129
+| Running process: P5
+| Ready Queue: [P6, Burst: 21][P3, Burst: 19]
+| IO Status: [P0, Remain: 26][P1, Remain: 1][P2, Remain: 29][P4, Remain: 60][P7, Remain: 34]
+| Processes completed: 
+
+ /Context Switch TIME=143
+| Running process: P3
+| Ready Queue: [P6, Burst: 21][P1, Burst: 19]
+| IO Status: [P0, Remain: 12][P2, Remain: 15][P4, Remain: 46][P5, Remain: 33][P7, Remain: 20]
+| Processes completed: 
+
+ /Context Switch TIME=162
+| Running process: P0
+| Ready Queue: [P6, Burst: 21][P1, Burst: 19][P2, Burst: 7]
+| IO Status: [P3, Remain: 55][P4, Remain: 27][P5, Remain: 14][P7, Remain: 1]
+| Processes completed: 
+
+ /Context Switch TIME=167
+| Running process: P2
+| Ready Queue: [P6, Burst: 21][P1, Burst: 19][P7, Burst: 15]
+| IO Status: [P0, Remain: 27][P3, Remain: 50][P4, Remain: 22][P5, Remain: 9]
+| Processes completed: 
+
+ /Context Switch TIME=174
+| Running process: P7
+| Ready Queue: [P6, Burst: 21][P1, Burst: 19]
+| IO Status: [P0, Remain: 20][P2, Remain: 21][P3, Remain: 43][P4, Remain: 15][P5, Remain: 2]
+| Processes completed: 
+
+ /Context Switch TIME=189
+| Running process: P4
+| Ready Queue: [P6, Burst: 21][P1, Burst: 19][P5, Burst: 11]
+| IO Status: [P0, Remain: 5][P2, Remain: 6][P3, Remain: 28][P7, Remain: 31]
+| Processes completed: 
+
+ /Context Switch TIME=194
+| Running process: P0
+| Ready Queue: [P6, Burst: 21][P1, Burst: 19][P5, Burst: 11]
+| IO Status: [P2, Remain: 1][P3, Remain: 23][P4, Remain: 71][P7, Remain: 26]
+| Processes completed: 
+
+ /Context Switch TIME=198
+| Running process: P2
+| Ready Queue: [P6, Burst: 21][P1, Burst: 19][P5, Burst: 11]
+| IO Status: [P0, Remain: 33][P3, Remain: 19][P4, Remain: 67][P7, Remain: 22]
+| Processes completed: 
+
+ /Context Switch TIME=206
+| Running process: P5
+| Ready Queue: [P6, Burst: 21][P1, Burst: 19]
+| IO Status: [P0, Remain: 25][P2, Remain: 22][P3, Remain: 11][P4, Remain: 59][P7, Remain: 14]
+| Processes completed: 
+
+ /Context Switch TIME=217
+| Running process: P1
+| Ready Queue: [P6, Burst: 21][P3, Burst: 20]
+| IO Status: [P0, Remain: 14][P2, Remain: 11][P4, Remain: 48][P5, Remain: 32][P7, Remain: 3]
+| Processes completed: 
+
+ /Context Switch TIME=236
+| Running process: P2
+| Ready Queue: [P6, Burst: 21][P3, Burst: 20][P7, Burst: 17][P0, Burst: 6]
+| IO Status: [P1, Remain: 35][P4, Remain: 29][P5, Remain: 13]
+| Processes completed: 
+
+ /Context Switch TIME=242
+| Running process: P0
+| Ready Queue: [P6, Burst: 21][P3, Burst: 20][P7, Burst: 17]
+| IO Status: [P1, Remain: 29][P2, Remain: 24][P4, Remain: 23][P5, Remain: 7]
+| Processes completed: 
+
+ /Context Switch TIME=248
+| Running process: P7
+| Ready Queue: [P6, Burst: 21][P3, Burst: 20]
+| IO Status: [P0, Remain: 43][P1, Remain: 23][P2, Remain: 18][P4, Remain: 17][P5, Remain: 1]
+| Processes completed: 
+
+ /Context Switch TIME=265
+| Running process: P4
+| Ready Queue: [P6, Burst: 21][P3, Burst: 20][P5, Burst: 15]
+| IO Status: [P0, Remain: 26][P1, Remain: 6][P2, Remain: 1][P7, Remain: 21]
+| Processes completed: 
+
+ /Context Switch TIME=268
+| Running process: P2
+| Ready Queue: [P6, Burst: 21][P3, Burst: 20][P5, Burst: 15]
+| IO Status: [P0, Remain: 23][P1, Remain: 3][P4, Remain: 61][P7, Remain: 18]
+| Processes completed: 
+
+ /Context Switch TIME=273
+| Running process: P1
+| Ready Queue: [P6, Burst: 21][P3, Burst: 20][P5, Burst: 15]
+| IO Status: [P0, Remain: 18][P4, Remain: 56][P7, Remain: 13]
+| Processes completed: [P2]
+
+ /Context Switch TIME=284
+| Running process: P5
+| Ready Queue: [P6, Burst: 21][P3, Burst: 20]
+| IO Status: [P0, Remain: 7][P1, Remain: 42][P4, Remain: 45][P7, Remain: 2]
+| Processes completed: [P2]
+
+ /Context Switch TIME=299
+| Running process: P0
+| Ready Queue: [P6, Burst: 21][P3, Burst: 20][P7, Burst: 16]
+| IO Status: [P1, Remain: 27][P4, Remain: 30][P5, Remain: 41]
+| Processes completed: [P2]
+
+ /Context Switch TIME=303
+| Running process: P7
+| Ready Queue: [P6, Burst: 21][P3, Burst: 20]
+| IO Status: [P0, Remain: 64][P1, Remain: 23][P4, Remain: 26][P5, Remain: 37]
+| Processes completed: [P2]
+
+ /Context Switch TIME=319
+| Running process: P3
+| Ready Queue: [P6, Burst: 21]
+| IO Status: [P0, Remain: 48][P1, Remain: 7][P4, Remain: 10][P5, Remain: 21][P7, Remain: 43]
+| Processes completed: [P2]
+
+ /Context Switch TIME=339
+| Running process: P4
+| Ready Queue: [P6, Burst: 21][P1, Burst: 18]
+| IO Status: [P0, Remain: 28][P3, Remain: 54][P5, Remain: 1][P7, Remain: 23]
+| Processes completed: [P2]
+
+ /Context Switch TIME=344
+| Running process: P5
+| Ready Queue: [P6, Burst: 21][P1, Burst: 18]
+| IO Status: [P0, Remain: 23][P3, Remain: 49][P4, Remain: 62][P7, Remain: 18]
+| Processes completed: [P2]
+
+ /Context Switch TIME=357
+| Running process: P1
+| Ready Queue: [P6, Burst: 21]
+| IO Status: [P0, Remain: 10][P3, Remain: 36][P4, Remain: 49][P5, Remain: 29][P7, Remain: 5]
+| Processes completed: [P2]
+
+ /Context Switch TIME=375
+| Running process: P0
+| Ready Queue: [P6, Burst: 21][P7, Burst: 12]
+| IO Status: [P1, Remain: 43][P3, Remain: 18][P4, Remain: 31][P5, Remain: 11]
+| Processes completed: [P2]
+
+ /Context Switch TIME=380
+| Running process: P7
+| Ready Queue: [P6, Burst: 21]
+| IO Status: [P0, Remain: 19][P1, Remain: 38][P3, Remain: 13][P4, Remain: 26][P5, Remain: 6]
+| Processes completed: [P2]
+
+ /Context Switch TIME=392
+| Running process: P5
+| Ready Queue: [P6, Burst: 21]
+| IO Status: [P0, Remain: 7][P1, Remain: 26][P3, Remain: 1][P4, Remain: 14][P7, Remain: 31]
+| Processes completed: [P2]
+
+ /Context Switch TIME=403
+| Running process: P0
+| Ready Queue: [P6, Burst: 21][P3, Burst: 17]
+| IO Status: [P1, Remain: 15][P4, Remain: 3][P7, Remain: 20]
+| Processes completed: [P2][P5]
+
+ /Context Switch TIME=405
+| Running process: P3
+| Ready Queue: [P6, Burst: 21]
+| IO Status: [P1, Remain: 13][P4, Remain: 1][P7, Remain: 18]
+| Processes completed: [P0][P2][P5]
+
+ /Context Switch TIME=422
+| Running process: P4
+| Ready Queue: [P6, Burst: 21][P1, Burst: 19]
+| IO Status: [P3, Remain: 52][P7, Remain: 1]
+| Processes completed: [P0][P2][P5]
+
+ /Context Switch TIME=426
+| Running process: P7
+| Ready Queue: [P6, Burst: 21][P1, Burst: 19]
+| IO Status: [P3, Remain: 48][P4, Remain: 51]
+| Processes completed: [P0][P2][P5]
+
+ /Context Switch TIME=439
+| Running process: P1
+| Ready Queue: [P6, Burst: 21]
+| IO Status: [P3, Remain: 35][P4, Remain: 38][P7, Remain: 32]
+| Processes completed: [P0][P2][P5]
+
+ /Context Switch TIME=458
+| Running process: P6
+| Ready Queue: 
+| IO Status: [P1, Remain: 47][P3, Remain: 16][P4, Remain: 19][P7, Remain: 13]
+| Processes completed: [P0][P2][P5]
+
+ /Context Switch TIME=479
+| Running process: P4
+| Ready Queue: [P7, Burst: 15][P3, Burst: 15]
+| IO Status: [P1, Remain: 26][P6, Remain: 51]
+| Processes completed: [P0][P2][P5]
+
+ /Context Switch TIME=482
+| Running process: P7
+| Ready Queue: [P3, Burst: 15]
+| IO Status: [P1, Remain: 23][P4, Remain: 77][P6, Remain: 48]
+| Processes completed: [P0][P2][P5]
+
+ /Context Switch TIME=497
+| Running process: P3
+| Ready Queue: 
+| IO Status: [P1, Remain: 8][P4, Remain: 62][P6, Remain: 33]
+| Processes completed: [P0][P2][P5][P7]
+
+ /Context Switch TIME=512
+| Running process: P1
+| Ready Queue: 
+| IO Status: [P3, Remain: 67][P4, Remain: 47][P6, Remain: 18]
+| Processes completed: [P0][P2][P5][P7]
+
+ /Context Switch TIME=530
+| Running process: P6
+| Ready Queue: 
+| IO Status: [P1, Remain: 43][P3, Remain: 49][P4, Remain: 29]
+| Processes completed: [P0][P2][P5][P7]
+
+ /Context Switch TIME=558
+| Running process: P4
+| Ready Queue: 
+| IO Status: [P1, Remain: 14][P3, Remain: 20][P6, Remain: 47]
+| Processes completed: [P0][P2][P5][P7]
+
+ /Context Switch TIME=572
+| Running process: P1
+| Ready Queue: 
+| IO Status: [P3, Remain: 6][P4, Remain: 51][P6, Remain: 33]
+| Processes completed: [P0][P2][P5][P7]
+
+ /Context Switch TIME=590
+| Running process: P3
+| Ready Queue: 
+| IO Status: [P1, Remain: 51][P4, Remain: 34][P6, Remain: 16]
+| Processes completed: [P0][P2][P5][P7]
+
+ /Context Switch TIME=605
+| Running process: P6
+| Ready Queue: 
+| IO Status: [P1, Remain: 35][P3, Remain: 68][P4, Remain: 18]
+| Processes completed: [P0][P2][P5][P7]
+
+ /Context Switch TIME=630
+| Running process: P4
+| Ready Queue: 
+| IO Status: [P1, Remain: 11][P3, Remain: 44][P6, Remain: 61]
+| Processes completed: [P0][P2][P5][P7]
+
+ /Context Switch TIME=640
+| Running process: P1
+| Ready Queue: 
+| IO Status: [P3, Remain: 33][P4, Remain: 34][P6, Remain: 50]
+| Processes completed: [P0][P2][P5][P7]
+
+ /Context Switch TIME=673
+| Running process: P3
+| Ready Queue: 
+| IO Status: [P1, Remain: 18][P4, Remain: 1][P6, Remain: 17]
+| Processes completed: [P0][P2][P5][P7]
+
+ /Context Switch TIME=689
+| Running process: P4
+| Ready Queue: 
+| IO Status: [P1, Remain: 3][P3, Remain: 66][P6, Remain: 2]
+| Processes completed: [P0][P2][P5][P7]
+
+ /Context Switch TIME=694
+| Running process: P1
+| Ready Queue: [P6, Burst: 22]
+| IO Status: [P3, Remain: 61]
+| Processes completed: [P0][P2][P4][P5][P7]
+
+ /Context Switch TIME=704
+| Running process: P6
+| Ready Queue: 
+| IO Status: [P3, Remain: 51]
+| Processes completed: [P0][P1][P2][P4][P5][P7]
+
+ /Context Switch TIME=754
+| Running process: P3
+| Ready Queue: 
+| IO Status: [P6, Remain: 2]
+| Processes completed: [P0][P1][P2][P4][P5][P7]
+
+ /Context Switch TIME=769
+| Running process: P6
+| Ready Queue: 
+| IO Status: 
+| Processes completed: [P0][P1][P2][P3][P4][P5][P7]
+
+ /Context Switch TIME=832
+| Running process: P6
+| Ready Queue: 
+| IO Status: 
+| Processes completed: [P0][P1][P2][P3][P4][P5][P7]
+
+SJF(): Ucpu: 0.8663540445486518, WT: 169.125, TR: 574.75, R: 79.625
+-----------------------------------------
+
+ /Context Switch TIME=0
+| Running process: P0
+| RR Queue 1: [P1, Burst: 18][P2, Burst: 6][P3, Burst: 17][P4, Burst: 5][P5, Burst: 10][P6, Burst: 21][P7, Burst: 11]
+| RR Queue 2: [P1, Burst: 18][P2, Burst: 6][P3, Burst: 17][P4, Burst: 5][P5, Burst: 10][P6, Burst: 21][P7, Burst: 11]
+| FCFS Queue 3: [P1, Burst: 18][P2, Burst: 6][P3, Burst: 17][P4, Burst: 5][P5, Burst: 10][P6, Burst: 21][P7, Burst: 11]
+| IO Status: 
+| Processes completed: 
+
+ /Context Switch TIME=2
+| Running process: P1
+| RR Queue 1: [P2, Burst: 6][P3, Burst: 17][P4, Burst: 5][P5, Burst: 10][P6, Burst: 21][P7, Burst: 11]
+| RR Queue 2: [P2, Burst: 6][P3, Burst: 17][P4, Burst: 5][P5, Burst: 10][P6, Burst: 21][P7, Burst: 11][P0, Burst: 2]
+| FCFS Queue 3: [P2, Burst: 6][P3, Burst: 17][P4, Burst: 5][P5, Burst: 10][P6, Burst: 21][P7, Burst: 11][P0, Burst: 2]
+| IO Status: 
+| Processes completed: 
+
+ /Context Switch TIME=4
+| Running process: P2
+| RR Queue 1: [P3, Burst: 17][P4, Burst: 5][P5, Burst: 10][P6, Burst: 21][P7, Burst: 11]
+| RR Queue 2: [P3, Burst: 17][P4, Burst: 5][P5, Burst: 10][P6, Burst: 21][P7, Burst: 11][P0, Burst: 2][P1, Burst: 16]
+| FCFS Queue 3: [P3, Burst: 17][P4, Burst: 5][P5, Burst: 10][P6, Burst: 21][P7, Burst: 11][P0, Burst: 2][P1, Burst: 16]
+| IO Status: 
+| Processes completed: 
+
+ /Context Switch TIME=6
+| Running process: P3
+| RR Queue 1: [P4, Burst: 5][P5, Burst: 10][P6, Burst: 21][P7, Burst: 11]
+| RR Queue 2: [P4, Burst: 5][P5, Burst: 10][P6, Burst: 21][P7, Burst: 11][P0, Burst: 2][P1, Burst: 16][P2, Burst: 4]
+| FCFS Queue 3: [P4, Burst: 5][P5, Burst: 10][P6, Burst: 21][P7, Burst: 11][P0, Burst: 2][P1, Burst: 16][P2, Burst: 4]
+| IO Status: 
+| Processes completed: 
+
+ /Context Switch TIME=8
+| Running process: P4
+| RR Queue 1: [P5, Burst: 10][P6, Burst: 21][P7, Burst: 11]
+| RR Queue 2: [P5, Burst: 10][P6, Burst: 21][P7, Burst: 11][P0, Burst: 2][P1, Burst: 16][P2, Burst: 4][P3, Burst: 15]
+| FCFS Queue 3: [P5, Burst: 10][P6, Burst: 21][P7, Burst: 11][P0, Burst: 2][P1, Burst: 16][P2, Burst: 4][P3, Burst: 15]
+| IO Status: 
+| Processes completed: 
+
+ /Context Switch TIME=10
+| Running process: P5
+| RR Queue 1: [P6, Burst: 21][P7, Burst: 11]
+| RR Queue 2: [P6, Burst: 21][P7, Burst: 11][P0, Burst: 2][P1, Burst: 16][P2, Burst: 4][P3, Burst: 15][P4, Burst: 3]
+| FCFS Queue 3: [P6, Burst: 21][P7, Burst: 11][P0, Burst: 2][P1, Burst: 16][P2, Burst: 4][P3, Burst: 15][P4, Burst: 3]
+| IO Status: 
+| Processes completed: 
+
+ /Context Switch TIME=12
+| Running process: P6
+| RR Queue 1: [P7, Burst: 11]
+| RR Queue 2: [P7, Burst: 11][P0, Burst: 2][P1, Burst: 16][P2, Burst: 4][P3, Burst: 15][P4, Burst: 3][P5, Burst: 8]
+| FCFS Queue 3: [P7, Burst: 11][P0, Burst: 2][P1, Burst: 16][P2, Burst: 4][P3, Burst: 15][P4, Burst: 3][P5, Burst: 8]
+| IO Status: 
+| Processes completed: 
+
+ /Context Switch TIME=14
+| Running process: P7
+| RR Queue 1: 
+| RR Queue 2: [P0, Burst: 2][P1, Burst: 16][P2, Burst: 4][P3, Burst: 15][P4, Burst: 3][P5, Burst: 8][P6, Burst: 19]
+| FCFS Queue 3: [P0, Burst: 2][P1, Burst: 16][P2, Burst: 4][P3, Burst: 15][P4, Burst: 3][P5, Burst: 8][P6, Burst: 19]
+| IO Status: 
+| Processes completed: 
+
+ /Context Switch TIME=16
+| Running process: P0
+| RR Queue 1: 
+| RR Queue 2: [P1, Burst: 16][P2, Burst: 4][P3, Burst: 15][P4, Burst: 3][P5, Burst: 8][P6, Burst: 19][P7, Burst: 9]
+| FCFS Queue 3: [P1, Burst: 16][P2, Burst: 4][P3, Burst: 15][P4, Burst: 3][P5, Burst: 8][P6, Burst: 19][P7, Burst: 9]
+| IO Status: 
+| Processes completed: 
+
+ /Context Switch TIME=18
+| Running process: P1
+| RR Queue 1: 
+| RR Queue 2: [P2, Burst: 4][P3, Burst: 15][P4, Burst: 3][P5, Burst: 8][P6, Burst: 19][P7, Burst: 9]
+| FCFS Queue 3: [P2, Burst: 4][P3, Burst: 15][P4, Burst: 3][P5, Burst: 8][P6, Burst: 19][P7, Burst: 9]
+| IO Status: [P0, Remain: 24]
+| Processes completed: 
+
+ /Context Switch TIME=34
+| Running process: P2
+| RR Queue 1: 
+| RR Queue 2: [P3, Burst: 15][P4, Burst: 3][P5, Burst: 8][P6, Burst: 19][P7, Burst: 9]
+| FCFS Queue 3: [P3, Burst: 15][P4, Burst: 3][P5, Burst: 8][P6, Burst: 19][P7, Burst: 9]
+| IO Status: [P0, Remain: 8][P1, Remain: 31]
+| Processes completed: 
+
+ /Context Switch TIME=38
+| Running process: P3
+| RR Queue 1: 
+| RR Queue 2: [P4, Burst: 3][P5, Burst: 8][P6, Burst: 19][P7, Burst: 9]
+| FCFS Queue 3: [P4, Burst: 3][P5, Burst: 8][P6, Burst: 19][P7, Burst: 9]
+| IO Status: [P0, Remain: 4][P1, Remain: 27][P2, Remain: 18]
+| Processes completed: 
+
+ /Context Switch TIME=42
+| Running process: P0
+| RR Queue 1: 
+| RR Queue 2: [P4, Burst: 3][P5, Burst: 8][P6, Burst: 19][P7, Burst: 9]
+| FCFS Queue 3: [P4, Burst: 3][P5, Burst: 8][P6, Burst: 19][P7, Burst: 9][P3, Burst: 11]
+| IO Status: [P1, Remain: 23][P2, Remain: 14]
+| Processes completed: 
+
+ /Context Switch TIME=44
+| Running process: P4
+| RR Queue 1: 
+| RR Queue 2: [P5, Burst: 8][P6, Burst: 19][P7, Burst: 9][P0, Burst: 3]
+| FCFS Queue 3: [P5, Burst: 8][P6, Burst: 19][P7, Burst: 9][P0, Burst: 3][P3, Burst: 11]
+| IO Status: [P1, Remain: 21][P2, Remain: 12]
+| Processes completed: 
+
+ /Context Switch TIME=47
+| Running process: P5
+| RR Queue 1: 
+| RR Queue 2: [P6, Burst: 19][P7, Burst: 9][P0, Burst: 3]
+| FCFS Queue 3: [P6, Burst: 19][P7, Burst: 9][P0, Burst: 3][P3, Burst: 11]
+| IO Status: [P1, Remain: 18][P2, Remain: 9][P4, Remain: 81]
+| Processes completed: 
+
+ /Context Switch TIME=55
+| Running process: P6
+| RR Queue 1: 
+| RR Queue 2: [P7, Burst: 9][P0, Burst: 3]
+| FCFS Queue 3: [P7, Burst: 9][P0, Burst: 3][P3, Burst: 11]
+| IO Status: [P1, Remain: 10][P2, Remain: 1][P4, Remain: 73][P5, Remain: 35]
+| Processes completed: 
+
+ /Context Switch TIME=56
+| Running process: P2
+| RR Queue 1: 
+| RR Queue 2: [P7, Burst: 9][P0, Burst: 3]
+| FCFS Queue 3: [P7, Burst: 9][P0, Burst: 3][P3, Burst: 11][P6, Burst: 18]
+| IO Status: [P1, Remain: 9][P4, Remain: 72][P5, Remain: 34]
+| Processes completed: 
+
+ /Context Switch TIME=58
+| Running process: P7
+| RR Queue 1: 
+| RR Queue 2: [P0, Burst: 3][P2, Burst: 2]
+| FCFS Queue 3: [P0, Burst: 3][P2, Burst: 2][P3, Burst: 11][P6, Burst: 18]
+| IO Status: [P1, Remain: 7][P4, Remain: 70][P5, Remain: 32]
+| Processes completed: 
+
+ /Context Switch TIME=65
+| Running process: P1
+| RR Queue 1: 
+| RR Queue 2: [P0, Burst: 3][P2, Burst: 2]
+| FCFS Queue 3: [P0, Burst: 3][P2, Burst: 2][P3, Burst: 11][P6, Burst: 18][P7, Burst: 2]
+| IO Status: [P4, Remain: 63][P5, Remain: 25]
+| Processes completed: 
+
+ /Context Switch TIME=67
+| Running process: P0
+| RR Queue 1: 
+| RR Queue 2: [P2, Burst: 2][P1, Burst: 17]
+| FCFS Queue 3: [P2, Burst: 2][P1, Burst: 17][P3, Burst: 11][P6, Burst: 18][P7, Burst: 2]
+| IO Status: [P4, Remain: 61][P5, Remain: 23]
+| Processes completed: 
+
+ /Context Switch TIME=70
+| Running process: P2
+| RR Queue 1: 
+| RR Queue 2: [P1, Burst: 17]
+| FCFS Queue 3: [P1, Burst: 17][P3, Burst: 11][P6, Burst: 18][P7, Burst: 2]
+| IO Status: [P0, Remain: 73][P4, Remain: 58][P5, Remain: 20]
+| Processes completed: 
+
+ /Context Switch TIME=72
+| Running process: P1
+| RR Queue 1: 
+| RR Queue 2: 
+| FCFS Queue 3: [P3, Burst: 11][P6, Burst: 18][P7, Burst: 2]
+| IO Status: [P0, Remain: 71][P2, Remain: 21][P4, Remain: 56][P5, Remain: 18]
+| Processes completed: 
+
+ /Context Switch TIME=89
+| Running process: P3
+| RR Queue 1: 
+| RR Queue 2: 
+| FCFS Queue 3: [P6, Burst: 18][P7, Burst: 2]
+| IO Status: [P0, Remain: 54][P1, Remain: 35][P2, Remain: 4][P4, Remain: 39][P5, Remain: 1]
+| Processes completed: 
+
+ /Context Switch TIME=90
+| Running process: P5
+| RR Queue 1: 
+| RR Queue 2: 
+| FCFS Queue 3: [P6, Burst: 18][P7, Burst: 2][P3, Burst: 10]
+| IO Status: [P0, Remain: 53][P1, Remain: 34][P2, Remain: 3][P4, Remain: 38]
+| Processes completed: 
+
+ /Context Switch TIME=92
+| Running process: P5
+| RR Queue 1: 
+| RR Queue 2: 
+| FCFS Queue 3: [P6, Burst: 18][P7, Burst: 2][P3, Burst: 10]
+| IO Status: [P0, Remain: 51][P1, Remain: 32][P2, Remain: 1][P4, Remain: 36]
+| Processes completed: 
+
+ /Context Switch TIME=93
+| Running process: P2
+| RR Queue 1: 
+| RR Queue 2: 
+| FCFS Queue 3: [P6, Burst: 18][P7, Burst: 2][P3, Burst: 10][P5, Burst: 9]
+| IO Status: [P0, Remain: 50][P1, Remain: 31][P4, Remain: 35]
+| Processes completed: 
+
+ /Context Switch TIME=95
+| Running process: P2
+| RR Queue 1: 
+| RR Queue 2: 
+| FCFS Queue 3: [P6, Burst: 18][P7, Burst: 2][P3, Burst: 10][P5, Burst: 9]
+| IO Status: [P0, Remain: 48][P1, Remain: 29][P4, Remain: 33]
+| Processes completed: 
+
+ /Context Switch TIME=100
+| Running process: P6
+| RR Queue 1: 
+| RR Queue 2: 
+| FCFS Queue 3: [P7, Burst: 2][P3, Burst: 10][P5, Burst: 9]
+| IO Status: [P0, Remain: 43][P1, Remain: 24][P2, Remain: 19][P4, Remain: 28]
+| Processes completed: 
+
+ /Context Switch TIME=118
+| Running process: P7
+| RR Queue 1: 
+| RR Queue 2: 
+| FCFS Queue 3: [P3, Burst: 10][P5, Burst: 9]
+| IO Status: [P0, Remain: 25][P1, Remain: 6][P2, Remain: 1][P4, Remain: 10][P6, Remain: 51]
+| Processes completed: 
+
+ /Context Switch TIME=119
+| Running process: P2
+| RR Queue 1: 
+| RR Queue 2: 
+| FCFS Queue 3: [P3, Burst: 10][P5, Burst: 9][P7, Burst: 1]
+| IO Status: [P0, Remain: 24][P1, Remain: 5][P4, Remain: 9][P6, Remain: 50]
+| Processes completed: 
+
+ /Context Switch TIME=121
+| Running process: P2
+| RR Queue 1: 
+| RR Queue 2: 
+| FCFS Queue 3: [P3, Burst: 10][P5, Burst: 9][P7, Burst: 1]
+| IO Status: [P0, Remain: 22][P1, Remain: 3][P4, Remain: 7][P6, Remain: 48]
+| Processes completed: 
+
+ /Context Switch TIME=123
+| Running process: P3
+| RR Queue 1: 
+| RR Queue 2: 
+| FCFS Queue 3: [P5, Burst: 9][P7, Burst: 1]
+| IO Status: [P0, Remain: 20][P1, Remain: 1][P2, Remain: 16][P4, Remain: 5][P6, Remain: 46]
+| Processes completed: 
+
+ /Context Switch TIME=124
+| Running process: P1
+| RR Queue 1: 
+| RR Queue 2: 
+| FCFS Queue 3: [P5, Burst: 9][P7, Burst: 1][P3, Burst: 9]
+| IO Status: [P0, Remain: 19][P2, Remain: 15][P4, Remain: 4][P6, Remain: 45]
+| Processes completed: 
+
+ /Context Switch TIME=126
+| Running process: P1
+| RR Queue 1: 
+| RR Queue 2: 
+| FCFS Queue 3: [P5, Burst: 9][P7, Burst: 1][P3, Burst: 9]
+| IO Status: [P0, Remain: 17][P2, Remain: 13][P4, Remain: 2][P6, Remain: 43]
+| Processes completed: 
+
+ /Context Switch TIME=128
+| Running process: P4
+| RR Queue 1: 
+| RR Queue 2: 
+| FCFS Queue 3: [P5, Burst: 9][P7, Burst: 1][P3, Burst: 9][P1, Burst: 7]
+| IO Status: [P0, Remain: 15][P2, Remain: 11][P6, Remain: 41]
+| Processes completed: 
+
+ /Context Switch TIME=130
+| Running process: P4
+| RR Queue 1: 
+| RR Queue 2: 
+| FCFS Queue 3: [P5, Burst: 9][P7, Burst: 1][P3, Burst: 9][P1, Burst: 7]
+| IO Status: [P0, Remain: 13][P2, Remain: 9][P6, Remain: 39]
+| Processes completed: 
+
+ /Context Switch TIME=132
+| Running process: P5
+| RR Queue 1: 
+| RR Queue 2: 
+| FCFS Queue 3: [P7, Burst: 1][P3, Burst: 9][P1, Burst: 7]
+| IO Status: [P0, Remain: 11][P2, Remain: 7][P4, Remain: 82][P6, Remain: 37]
+| Processes completed: 
+
+ /Context Switch TIME=139
+| Running process: P2
+| RR Queue 1: 
+| RR Queue 2: 
+| FCFS Queue 3: [P7, Burst: 1][P3, Burst: 9][P1, Burst: 7][P5, Burst: 2]
+| IO Status: [P0, Remain: 4][P4, Remain: 75][P6, Remain: 30]
+| Processes completed: 
+
+ /Context Switch TIME=141
+| Running process: P2
+| RR Queue 1: 
+| RR Queue 2: 
+| FCFS Queue 3: [P7, Burst: 1][P3, Burst: 9][P1, Burst: 7][P5, Burst: 2]
+| IO Status: [P0, Remain: 2][P4, Remain: 73][P6, Remain: 28]
+| Processes completed: 
+
+ /Context Switch TIME=143
+| Running process: P0
+| RR Queue 1: 
+| RR Queue 2: 
+| FCFS Queue 3: [P7, Burst: 1][P3, Burst: 9][P1, Burst: 7][P5, Burst: 2][P2, Burst: 1]
+| IO Status: [P4, Remain: 71][P6, Remain: 26]
+| Processes completed: 
+
+ /Context Switch TIME=145
+| Running process: P0
+| RR Queue 1: 
+| RR Queue 2: 
+| FCFS Queue 3: [P7, Burst: 1][P3, Burst: 9][P1, Burst: 7][P5, Burst: 2][P2, Burst: 1]
+| IO Status: [P4, Remain: 69][P6, Remain: 24]
+| Processes completed: 
+
+ /Context Switch TIME=146
+| Running process: P7
+| RR Queue 1: 
+| RR Queue 2: 
+| FCFS Queue 3: [P3, Burst: 9][P1, Burst: 7][P5, Burst: 2][P2, Burst: 1]
+| IO Status: [P0, Remain: 31][P4, Remain: 68][P6, Remain: 23]
+| Processes completed: 
+
+ /Context Switch TIME=147
+| Running process: P3
+| RR Queue 1: 
+| RR Queue 2: 
+| FCFS Queue 3: [P1, Burst: 7][P5, Burst: 2][P2, Burst: 1]
+| IO Status: [P0, Remain: 30][P4, Remain: 67][P6, Remain: 22][P7, Remain: 52]
+| Processes completed: 
+
+ /Context Switch TIME=156
+| Running process: P1
+| RR Queue 1: 
+| RR Queue 2: 
+| FCFS Queue 3: [P5, Burst: 2][P2, Burst: 1]
+| IO Status: [P0, Remain: 21][P3, Remain: 42][P4, Remain: 58][P6, Remain: 13][P7, Remain: 43]
+| Processes completed: 
+
+ /Context Switch TIME=163
+| Running process: P5
+| RR Queue 1: 
+| RR Queue 2: 
+| FCFS Queue 3: [P2, Burst: 1]
+| IO Status: [P0, Remain: 14][P1, Remain: 42][P3, Remain: 35][P4, Remain: 51][P6, Remain: 6][P7, Remain: 36]
+| Processes completed: 
+
+ /Context Switch TIME=165
+| Running process: P2
+| RR Queue 1: 
+| RR Queue 2: 
+| FCFS Queue 3: 
+| IO Status: [P0, Remain: 12][P1, Remain: 40][P3, Remain: 33][P4, Remain: 49][P5, Remain: 41][P6, Remain: 4][P7, Remain: 34]
+| Processes completed: 
+
+ /Context Switch TIME=168
+| Running process: P6
+| RR Queue 1: 
+| RR Queue 2: 
+| FCFS Queue 3: 
+| IO Status: [P0, Remain: 8][P1, Remain: 36][P2, Remain: 26][P3, Remain: 29][P4, Remain: 45][P5, Remain: 37][P7, Remain: 30]
+| Processes completed: 
+
+ /Context Switch TIME=177
+| Running process: P0
+| RR Queue 1: 
+| RR Queue 2: 
+| FCFS Queue 3: [P6, Burst: 15]
+| IO Status: [P1, Remain: 28][P2, Remain: 18][P3, Remain: 21][P4, Remain: 37][P5, Remain: 29][P7, Remain: 22]
+| Processes completed: 
+
+ /Context Switch TIME=179
+| Running process: P0
+| RR Queue 1: 
+| RR Queue 2: 
+| FCFS Queue 3: [P6, Burst: 15]
+| IO Status: [P1, Remain: 26][P2, Remain: 16][P3, Remain: 19][P4, Remain: 35][P5, Remain: 27][P7, Remain: 20]
+| Processes completed: 
+
+ /Context Switch TIME=182
+| Running process: P6
+| RR Queue 1: 
+| RR Queue 2: 
+| FCFS Queue 3: 
+| IO Status: [P0, Remain: 27][P1, Remain: 23][P2, Remain: 13][P3, Remain: 16][P4, Remain: 32][P5, Remain: 24][P7, Remain: 17]
+| Processes completed: 
+
+ /Context Switch TIME=195
+| Running process: P2
+| RR Queue 1: 
+| RR Queue 2: 
+| FCFS Queue 3: [P6, Burst: 2]
+| IO Status: [P0, Remain: 14][P1, Remain: 10][P3, Remain: 3][P4, Remain: 19][P5, Remain: 11][P7, Remain: 4]
+| Processes completed: 
+
+ /Context Switch TIME=197
+| Running process: P2
+| RR Queue 1: 
+| RR Queue 2: 
+| FCFS Queue 3: [P6, Burst: 2]
+| IO Status: [P0, Remain: 12][P1, Remain: 8][P3, Remain: 1][P4, Remain: 17][P5, Remain: 9][P7, Remain: 2]
+| Processes completed: 
+
+ /Context Switch TIME=198
+| Running process: P3
+| RR Queue 1: 
+| RR Queue 2: 
+| FCFS Queue 3: [P6, Burst: 2][P2, Burst: 4]
+| IO Status: [P0, Remain: 11][P1, Remain: 7][P4, Remain: 16][P5, Remain: 8][P7, Remain: 1]
+| Processes completed: 
+
+ /Context Switch TIME=200
+| Running process: P7
+| RR Queue 1: 
+| RR Queue 2: [P3, Burst: 17]
+| FCFS Queue 3: [P3, Burst: 17][P6, Burst: 2][P2, Burst: 4]
+| IO Status: [P0, Remain: 9][P1, Remain: 5][P4, Remain: 14][P5, Remain: 6]
+| Processes completed: 
+
+ /Context Switch TIME=202
+| Running process: P3
+| RR Queue 1: 
+| RR Queue 2: [P7, Burst: 12]
+| FCFS Queue 3: [P7, Burst: 12][P6, Burst: 2][P2, Burst: 4]
+| IO Status: [P0, Remain: 7][P1, Remain: 3][P4, Remain: 12][P5, Remain: 4]
+| Processes completed: 
+
+ /Context Switch TIME=205
+| Running process: P1
+| RR Queue 1: 
+| RR Queue 2: [P7, Burst: 12]
+| FCFS Queue 3: [P7, Burst: 12][P6, Burst: 2][P2, Burst: 4][P3, Burst: 14]
+| IO Status: [P0, Remain: 4][P4, Remain: 9][P5, Remain: 1]
+| Processes completed: 
+
+ /Context Switch TIME=207
+| Running process: P5
+| RR Queue 1: 
+| RR Queue 2: [P7, Burst: 12][P1, Burst: 16]
+| FCFS Queue 3: [P7, Burst: 12][P1, Burst: 16][P6, Burst: 2][P2, Burst: 4][P3, Burst: 14]
+| IO Status: [P0, Remain: 2][P4, Remain: 7]
+| Processes completed: 
+
+ /Context Switch TIME=209
+| Running process: P0
+| RR Queue 1: 
+| RR Queue 2: [P7, Burst: 12][P1, Burst: 16][P5, Burst: 12]
+| FCFS Queue 3: [P7, Burst: 12][P1, Burst: 16][P5, Burst: 12][P6, Burst: 2][P2, Burst: 4][P3, Burst: 14]
+| IO Status: [P4, Remain: 5]
+| Processes completed: 
+
+ /Context Switch TIME=211
+| Running process: P7
+| RR Queue 1: 
+| RR Queue 2: [P1, Burst: 16][P5, Burst: 12][P0, Burst: 2]
+| FCFS Queue 3: [P1, Burst: 16][P5, Burst: 12][P0, Burst: 2][P6, Burst: 2][P2, Burst: 4][P3, Burst: 14]
+| IO Status: [P4, Remain: 3]
+| Processes completed: 
+
+ /Context Switch TIME=214
+| Running process: P4
+| RR Queue 1: 
+| RR Queue 2: [P1, Burst: 16][P5, Burst: 12][P0, Burst: 2]
+| FCFS Queue 3: [P1, Burst: 16][P5, Burst: 12][P0, Burst: 2][P6, Burst: 2][P2, Burst: 4][P3, Burst: 14][P7, Burst: 9]
+| IO Status: 
+| Processes completed: 
+
+ /Context Switch TIME=216
+| Running process: P1
+| RR Queue 1: 
+| RR Queue 2: [P5, Burst: 12][P0, Burst: 2][P4, Burst: 3]
+| FCFS Queue 3: [P5, Burst: 12][P0, Burst: 2][P4, Burst: 3][P6, Burst: 2][P2, Burst: 4][P3, Burst: 14][P7, Burst: 9]
+| IO Status: 
+| Processes completed: 
+
+ /Context Switch TIME=232
+| Running process: P5
+| RR Queue 1: 
+| RR Queue 2: [P0, Burst: 2][P4, Burst: 3]
+| FCFS Queue 3: [P0, Burst: 2][P4, Burst: 3][P6, Burst: 2][P2, Burst: 4][P3, Burst: 14][P7, Burst: 9]
+| IO Status: [P1, Remain: 43]
+| Processes completed: 
+
+ /Context Switch TIME=244
+| Running process: P0
+| RR Queue 1: 
+| RR Queue 2: [P4, Burst: 3]
+| FCFS Queue 3: [P4, Burst: 3][P6, Burst: 2][P2, Burst: 4][P3, Burst: 14][P7, Burst: 9]
+| IO Status: [P1, Remain: 31][P5, Remain: 33]
+| Processes completed: 
+
+ /Context Switch TIME=246
+| Running process: P4
+| RR Queue 1: 
+| RR Queue 2: 
+| FCFS Queue 3: [P6, Burst: 2][P2, Burst: 4][P3, Burst: 14][P7, Burst: 9]
+| IO Status: [P0, Remain: 33][P1, Remain: 29][P5, Remain: 31]
+| Processes completed: 
+
+ /Context Switch TIME=249
+| Running process: P6
+| RR Queue 1: 
+| RR Queue 2: 
+| FCFS Queue 3: [P2, Burst: 4][P3, Burst: 14][P7, Burst: 9]
+| IO Status: [P0, Remain: 30][P1, Remain: 26][P4, Remain: 71][P5, Remain: 28]
+| Processes completed: 
+
+ /Context Switch TIME=251
+| Running process: P2
+| RR Queue 1: 
+| RR Queue 2: 
+| FCFS Queue 3: [P3, Burst: 14][P7, Burst: 9]
+| IO Status: [P0, Remain: 28][P1, Remain: 24][P4, Remain: 69][P5, Remain: 26][P6, Remain: 53]
+| Processes completed: 
+
+ /Context Switch TIME=255
+| Running process: P3
+| RR Queue 1: 
+| RR Queue 2: 
+| FCFS Queue 3: [P7, Burst: 9]
+| IO Status: [P0, Remain: 24][P1, Remain: 20][P2, Remain: 21][P4, Remain: 65][P5, Remain: 22][P6, Remain: 49]
+| Processes completed: 
+
+ /Context Switch TIME=269
+| Running process: P7
+| RR Queue 1: 
+| RR Queue 2: 
+| FCFS Queue 3: 
+| IO Status: [P0, Remain: 10][P1, Remain: 6][P2, Remain: 7][P3, Remain: 55][P4, Remain: 51][P5, Remain: 8][P6, Remain: 35]
+| Processes completed: 
+
+ /Context Switch TIME=275
+| Running process: P1
+| RR Queue 1: 
+| RR Queue 2: 
+| FCFS Queue 3: [P7, Burst: 3]
+| IO Status: [P0, Remain: 4][P2, Remain: 1][P3, Remain: 49][P4, Remain: 45][P5, Remain: 2][P6, Remain: 29]
+| Processes completed: 
+
+ /Context Switch TIME=277
+| Running process: P2
+| RR Queue 1: [P5, Burst: 11]
+| RR Queue 2: [P5, Burst: 11][P1, Burst: 17]
+| FCFS Queue 3: [P5, Burst: 11][P1, Burst: 17][P7, Burst: 3]
+| IO Status: [P0, Remain: 2][P3, Remain: 47][P4, Remain: 43][P6, Remain: 27]
+| Processes completed: 
+
+ /Context Switch TIME=279
+| Running process: P5
+| RR Queue 1: [P0, Burst: 6]
+| RR Queue 2: [P0, Burst: 6][P1, Burst: 17][P2, Burst: 6]
+| FCFS Queue 3: [P0, Burst: 6][P1, Burst: 17][P2, Burst: 6][P7, Burst: 3]
+| IO Status: [P3, Remain: 45][P4, Remain: 41][P6, Remain: 25]
+| Processes completed: 
+
+ /Context Switch TIME=281
+| Running process: P0
+| RR Queue 1: 
+| RR Queue 2: [P1, Burst: 17][P2, Burst: 6][P5, Burst: 9]
+| FCFS Queue 3: [P1, Burst: 17][P2, Burst: 6][P5, Burst: 9][P7, Burst: 3]
+| IO Status: [P3, Remain: 43][P4, Remain: 39][P6, Remain: 23]
+| Processes completed: 
+
+ /Context Switch TIME=283
+| Running process: P1
+| RR Queue 1: 
+| RR Queue 2: [P2, Burst: 6][P5, Burst: 9][P0, Burst: 4]
+| FCFS Queue 3: [P2, Burst: 6][P5, Burst: 9][P0, Burst: 4][P7, Burst: 3]
+| IO Status: [P3, Remain: 41][P4, Remain: 37][P6, Remain: 21]
+| Processes completed: 
+
+ /Context Switch TIME=300
+| Running process: P2
+| RR Queue 1: 
+| RR Queue 2: [P5, Burst: 9][P0, Burst: 4]
+| FCFS Queue 3: [P5, Burst: 9][P0, Burst: 4][P7, Burst: 3]
+| IO Status: [P1, Remain: 47][P3, Remain: 24][P4, Remain: 20][P6, Remain: 4]
+| Processes completed: 
+
+ /Context Switch TIME=304
+| Running process: P6
+| RR Queue 1: 
+| RR Queue 2: [P5, Burst: 9][P0, Burst: 4]
+| FCFS Queue 3: [P5, Burst: 9][P0, Burst: 4][P7, Burst: 3][P2, Burst: 2]
+| IO Status: [P1, Remain: 43][P3, Remain: 20][P4, Remain: 16]
+| Processes completed: 
+
+ /Context Switch TIME=306
+| Running process: P5
+| RR Queue 1: 
+| RR Queue 2: [P0, Burst: 4][P6, Burst: 22]
+| FCFS Queue 3: [P0, Burst: 4][P6, Burst: 22][P7, Burst: 3][P2, Burst: 2]
+| IO Status: [P1, Remain: 41][P3, Remain: 18][P4, Remain: 14]
+| Processes completed: 
+
+ /Context Switch TIME=315
+| Running process: P0
+| RR Queue 1: 
+| RR Queue 2: [P6, Burst: 22]
+| FCFS Queue 3: [P6, Burst: 22][P7, Burst: 3][P2, Burst: 2]
+| IO Status: [P1, Remain: 32][P3, Remain: 9][P4, Remain: 5][P5, Remain: 32]
+| Processes completed: 
+
+ /Context Switch TIME=319
+| Running process: P6
+| RR Queue 1: 
+| RR Queue 2: 
+| FCFS Queue 3: [P7, Burst: 3][P2, Burst: 2]
+| IO Status: [P0, Remain: 43][P1, Remain: 28][P3, Remain: 5][P4, Remain: 1][P5, Remain: 28]
+| Processes completed: 
+
+ /Context Switch TIME=320
+| Running process: P4
+| RR Queue 1: 
+| RR Queue 2: 
+| FCFS Queue 3: [P7, Burst: 3][P2, Burst: 2][P6, Burst: 21]
+| IO Status: [P0, Remain: 42][P1, Remain: 27][P3, Remain: 4][P5, Remain: 27]
+| Processes completed: 
+
+ /Context Switch TIME=322
+| Running process: P4
+| RR Queue 1: 
+| RR Queue 2: 
+| FCFS Queue 3: [P7, Burst: 3][P2, Burst: 2][P6, Burst: 21]
+| IO Status: [P0, Remain: 40][P1, Remain: 25][P3, Remain: 2][P5, Remain: 25]
+| Processes completed: 
+
+ /Context Switch TIME=323
+| Running process: P7
+| RR Queue 1: 
+| RR Queue 2: 
+| FCFS Queue 3: [P2, Burst: 2][P6, Burst: 21]
+| IO Status: [P0, Remain: 39][P1, Remain: 24][P3, Remain: 1][P4, Remain: 61][P5, Remain: 24]
+| Processes completed: 
+
+ /Context Switch TIME=324
+| Running process: P3
+| RR Queue 1: 
+| RR Queue 2: 
+| FCFS Queue 3: [P2, Burst: 2][P6, Burst: 21][P7, Burst: 2]
+| IO Status: [P0, Remain: 38][P1, Remain: 23][P4, Remain: 60][P5, Remain: 23]
+| Processes completed: 
+
+ /Context Switch TIME=326
+| Running process: P3
+| RR Queue 1: 
+| RR Queue 2: 
+| FCFS Queue 3: [P2, Burst: 2][P6, Burst: 21][P7, Burst: 2]
+| IO Status: [P0, Remain: 36][P1, Remain: 21][P4, Remain: 58][P5, Remain: 21]
+| Processes completed: 
+
+ /Context Switch TIME=344
+| Running process: P2
+| RR Queue 1: 
+| RR Queue 2: 
+| FCFS Queue 3: [P6, Burst: 21][P7, Burst: 2]
+| IO Status: [P0, Remain: 18][P1, Remain: 3][P3, Remain: 54][P4, Remain: 40][P5, Remain: 3]
+| Processes completed: 
+
+ /Context Switch TIME=346
+| Running process: P6
+| RR Queue 1: 
+| RR Queue 2: 
+| FCFS Queue 3: [P7, Burst: 2]
+| IO Status: [P0, Remain: 16][P1, Remain: 1][P2, Remain: 22][P3, Remain: 52][P4, Remain: 38][P5, Remain: 1]
+| Processes completed: 
+
+ /Context Switch TIME=347
+| Running process: P1
+| RR Queue 1: [P5, Burst: 15]
+| RR Queue 2: [P5, Burst: 15]
+| FCFS Queue 3: [P5, Burst: 15][P7, Burst: 2][P6, Burst: 20]
+| IO Status: [P0, Remain: 15][P2, Remain: 21][P3, Remain: 51][P4, Remain: 37]
+| Processes completed: 
+
+ /Context Switch TIME=349
+| Running process: P5
+| RR Queue 1: 
+| RR Queue 2: [P1, Burst: 16]
+| FCFS Queue 3: [P1, Burst: 16][P7, Burst: 2][P6, Burst: 20]
+| IO Status: [P0, Remain: 13][P2, Remain: 19][P3, Remain: 49][P4, Remain: 35]
+| Processes completed: 
+
+ /Context Switch TIME=351
+| Running process: P1
+| RR Queue 1: 
+| RR Queue 2: [P5, Burst: 13]
+| FCFS Queue 3: [P5, Burst: 13][P7, Burst: 2][P6, Burst: 20]
+| IO Status: [P0, Remain: 11][P2, Remain: 17][P3, Remain: 47][P4, Remain: 33]
+| Processes completed: 
+
+ /Context Switch TIME=362
+| Running process: P0
+| RR Queue 1: 
+| RR Queue 2: [P5, Burst: 13]
+| FCFS Queue 3: [P5, Burst: 13][P7, Burst: 2][P6, Burst: 20][P1, Burst: 5]
+| IO Status: [P2, Remain: 6][P3, Remain: 36][P4, Remain: 22]
+| Processes completed: 
+
+ /Context Switch TIME=364
+| Running process: P5
+| RR Queue 1: 
+| RR Queue 2: [P0, Burst: 2]
+| FCFS Queue 3: [P0, Burst: 2][P7, Burst: 2][P6, Burst: 20][P1, Burst: 5]
+| IO Status: [P2, Remain: 4][P3, Remain: 34][P4, Remain: 20]
+| Processes completed: 
+
+ /Context Switch TIME=368
+| Running process: P2
+| RR Queue 1: 
+| RR Queue 2: [P0, Burst: 2]
+| FCFS Queue 3: [P0, Burst: 2][P7, Burst: 2][P6, Burst: 20][P1, Burst: 5][P5, Burst: 9]
+| IO Status: [P3, Remain: 30][P4, Remain: 16]
+| Processes completed: 
+
+ /Context Switch TIME=370
+| Running process: P0
+| RR Queue 1: 
+| RR Queue 2: [P2, Burst: 4]
+| FCFS Queue 3: [P2, Burst: 4][P7, Burst: 2][P6, Burst: 20][P1, Burst: 5][P5, Burst: 9]
+| IO Status: [P3, Remain: 28][P4, Remain: 14]
+| Processes completed: 
+
+ /Context Switch TIME=372
+| Running process: P2
+| RR Queue 1: 
+| RR Queue 2: 
+| FCFS Queue 3: [P7, Burst: 2][P6, Burst: 20][P1, Burst: 5][P5, Burst: 9]
+| IO Status: [P0, Remain: 64][P3, Remain: 26][P4, Remain: 12]
+| Processes completed: 
+
+ /Context Switch TIME=376
+| Running process: P7
+| RR Queue 1: 
+| RR Queue 2: 
+| FCFS Queue 3: [P6, Burst: 20][P1, Burst: 5][P5, Burst: 9]
+| IO Status: [P0, Remain: 60][P2, Remain: 24][P3, Remain: 22][P4, Remain: 8]
+| Processes completed: 
+
+ /Context Switch TIME=378
+| Running process: P6
+| RR Queue 1: 
+| RR Queue 2: 
+| FCFS Queue 3: [P1, Burst: 5][P5, Burst: 9]
+| IO Status: [P0, Remain: 58][P2, Remain: 22][P3, Remain: 20][P4, Remain: 6][P7, Remain: 42]
+| Processes completed: 
+
+ /Context Switch TIME=384
+| Running process: P4
+| RR Queue 1: 
+| RR Queue 2: 
+| FCFS Queue 3: [P1, Burst: 5][P5, Burst: 9][P6, Burst: 14]
+| IO Status: [P0, Remain: 52][P2, Remain: 16][P3, Remain: 14][P7, Remain: 36]
+| Processes completed: 
+
+ /Context Switch TIME=386
+| Running process: P4
+| RR Queue 1: 
+| RR Queue 2: 
+| FCFS Queue 3: [P1, Burst: 5][P5, Burst: 9][P6, Burst: 14]
+| IO Status: [P0, Remain: 50][P2, Remain: 14][P3, Remain: 12][P7, Remain: 34]
+| Processes completed: 
+
+ /Context Switch TIME=389
+| Running process: P1
+| RR Queue 1: 
+| RR Queue 2: 
+| FCFS Queue 3: [P5, Burst: 9][P6, Burst: 14]
+| IO Status: [P0, Remain: 47][P2, Remain: 11][P3, Remain: 9][P4, Remain: 62][P7, Remain: 31]
+| Processes completed: 
+
+ /Context Switch TIME=394
+| Running process: P5
+| RR Queue 1: 
+| RR Queue 2: 
+| FCFS Queue 3: [P6, Burst: 14]
+| IO Status: [P0, Remain: 42][P1, Remain: 43][P2, Remain: 6][P3, Remain: 4][P4, Remain: 57][P7, Remain: 26]
+| Processes completed: 
+
+ /Context Switch TIME=398
+| Running process: P3
+| RR Queue 1: 
+| RR Queue 2: 
+| FCFS Queue 3: [P6, Burst: 14][P5, Burst: 5]
+| IO Status: [P0, Remain: 38][P1, Remain: 39][P2, Remain: 2][P4, Remain: 53][P7, Remain: 22]
+| Processes completed: 
+
+ /Context Switch TIME=400
+| Running process: P2
+| RR Queue 1: 
+| RR Queue 2: [P3, Burst: 15]
+| FCFS Queue 3: [P3, Burst: 15][P6, Burst: 14][P5, Burst: 5]
+| IO Status: [P0, Remain: 36][P1, Remain: 37][P4, Remain: 51][P7, Remain: 20]
+| Processes completed: 
+
+ /Context Switch TIME=402
+| Running process: P3
+| RR Queue 1: 
+| RR Queue 2: [P2, Burst: 3]
+| FCFS Queue 3: [P2, Burst: 3][P6, Burst: 14][P5, Burst: 5]
+| IO Status: [P0, Remain: 34][P1, Remain: 35][P4, Remain: 49][P7, Remain: 18]
+| Processes completed: 
+
+ /Context Switch TIME=417
+| Running process: P2
+| RR Queue 1: 
+| RR Queue 2: 
+| FCFS Queue 3: [P6, Burst: 14][P5, Burst: 5]
+| IO Status: [P0, Remain: 19][P1, Remain: 20][P3, Remain: 52][P4, Remain: 34][P7, Remain: 3]
+| Processes completed: 
+
+ /Context Switch TIME=420
+| Running process: P7
+| RR Queue 1: 
+| RR Queue 2: 
+| FCFS Queue 3: [P6, Burst: 14][P5, Burst: 5]
+| IO Status: [P0, Remain: 16][P1, Remain: 17][P3, Remain: 49][P4, Remain: 31]
+| Processes completed: [P2]
+
+ /Context Switch TIME=422
+| Running process: P7
+| RR Queue 1: 
+| RR Queue 2: 
+| FCFS Queue 3: [P6, Burst: 14][P5, Burst: 5]
+| IO Status: [P0, Remain: 14][P1, Remain: 15][P3, Remain: 47][P4, Remain: 29]
+| Processes completed: [P2]
+
+ /Context Switch TIME=435
+| Running process: P6
+| RR Queue 1: 
+| RR Queue 2: 
+| FCFS Queue 3: [P5, Burst: 5]
+| IO Status: [P0, Remain: 1][P1, Remain: 2][P3, Remain: 34][P4, Remain: 16][P7, Remain: 31]
+| Processes completed: [P2]
+
+ /Context Switch TIME=436
+| Running process: P0
+| RR Queue 1: 
+| RR Queue 2: 
+| FCFS Queue 3: [P5, Burst: 5][P6, Burst: 13]
+| IO Status: [P1, Remain: 1][P3, Remain: 33][P4, Remain: 15][P7, Remain: 30]
+| Processes completed: [P2]
+
+ /Context Switch TIME=438
+| Running process: P1
+| RR Queue 1: 
+| RR Queue 2: [P0, Burst: 3]
+| FCFS Queue 3: [P0, Burst: 3][P5, Burst: 5][P6, Burst: 13]
+| IO Status: [P3, Remain: 31][P4, Remain: 13][P7, Remain: 28]
+| Processes completed: [P2]
+
+ /Context Switch TIME=440
+| Running process: P0
+| RR Queue 1: 
+| RR Queue 2: [P1, Burst: 15]
+| FCFS Queue 3: [P1, Burst: 15][P5, Burst: 5][P6, Burst: 13]
+| IO Status: [P3, Remain: 29][P4, Remain: 11][P7, Remain: 26]
+| Processes completed: [P2]
+
+ /Context Switch TIME=443
+| Running process: P1
+| RR Queue 1: 
+| RR Queue 2: 
+| FCFS Queue 3: [P5, Burst: 5][P6, Burst: 13]
+| IO Status: [P0, Remain: 19][P3, Remain: 26][P4, Remain: 8][P7, Remain: 23]
+| Processes completed: [P2]
+
+ /Context Switch TIME=451
+| Running process: P4
+| RR Queue 1: 
+| RR Queue 2: 
+| FCFS Queue 3: [P5, Burst: 5][P6, Burst: 13][P1, Burst: 7]
+| IO Status: [P0, Remain: 11][P3, Remain: 18][P7, Remain: 15]
+| Processes completed: [P2]
+
+ /Context Switch TIME=453
+| Running process: P4
+| RR Queue 1: 
+| RR Queue 2: 
+| FCFS Queue 3: [P5, Burst: 5][P6, Burst: 13][P1, Burst: 7]
+| IO Status: [P0, Remain: 9][P3, Remain: 16][P7, Remain: 13]
+| Processes completed: [P2]
+
+ /Context Switch TIME=455
+| Running process: P5
+| RR Queue 1: 
+| RR Queue 2: 
+| FCFS Queue 3: [P6, Burst: 13][P1, Burst: 7]
+| IO Status: [P0, Remain: 7][P3, Remain: 14][P4, Remain: 51][P7, Remain: 11]
+| Processes completed: [P2]
+
+ /Context Switch TIME=460
+| Running process: P6
+| RR Queue 1: 
+| RR Queue 2: 
+| FCFS Queue 3: [P1, Burst: 7]
+| IO Status: [P0, Remain: 2][P3, Remain: 9][P4, Remain: 46][P5, Remain: 41][P7, Remain: 6]
+| Processes completed: [P2]
+
+ /Context Switch TIME=462
+| Running process: P0
+| RR Queue 1: 
+| RR Queue 2: 
+| FCFS Queue 3: [P1, Burst: 7][P6, Burst: 11]
+| IO Status: [P3, Remain: 7][P4, Remain: 44][P5, Remain: 39][P7, Remain: 4]
+| Processes completed: [P2]
+
+ /Context Switch TIME=464
+| Running process: P1
+| RR Queue 1: 
+| RR Queue 2: 
+| FCFS Queue 3: [P6, Burst: 11]
+| IO Status: [P3, Remain: 5][P4, Remain: 42][P5, Remain: 37][P7, Remain: 2]
+| Processes completed: [P0][P2]
+
+ /Context Switch TIME=466
+| Running process: P7
+| RR Queue 1: 
+| RR Queue 2: 
+| FCFS Queue 3: [P6, Burst: 11][P1, Burst: 5]
+| IO Status: [P3, Remain: 3][P4, Remain: 40][P5, Remain: 35]
+| Processes completed: [P0][P2]
+
+ /Context Switch TIME=468
+| Running process: P7
+| RR Queue 1: 
+| RR Queue 2: 
+| FCFS Queue 3: [P6, Burst: 11][P1, Burst: 5]
+| IO Status: [P3, Remain: 1][P4, Remain: 38][P5, Remain: 33]
+| Processes completed: [P0][P2]
+
+ /Context Switch TIME=469
+| Running process: P3
+| RR Queue 1: 
+| RR Queue 2: 
+| FCFS Queue 3: [P6, Burst: 11][P1, Burst: 5][P7, Burst: 14]
+| IO Status: [P4, Remain: 37][P5, Remain: 32]
+| Processes completed: [P0][P2]
+
+ /Context Switch TIME=471
+| Running process: P3
+| RR Queue 1: 
+| RR Queue 2: 
+| FCFS Queue 3: [P6, Burst: 11][P1, Burst: 5][P7, Burst: 14]
+| IO Status: [P4, Remain: 35][P5, Remain: 30]
+| Processes completed: [P0][P2]
+
+ /Context Switch TIME=484
+| Running process: P6
+| RR Queue 1: 
+| RR Queue 2: 
+| FCFS Queue 3: [P1, Burst: 5][P7, Burst: 14]
+| IO Status: [P3, Remain: 67][P4, Remain: 22][P5, Remain: 17]
+| Processes completed: [P0][P2]
+
+ /Context Switch TIME=495
+| Running process: P1
+| RR Queue 1: 
+| RR Queue 2: 
+| FCFS Queue 3: [P7, Burst: 14]
+| IO Status: [P3, Remain: 56][P4, Remain: 11][P5, Remain: 6][P6, Remain: 61]
+| Processes completed: [P0][P2]
+
+ /Context Switch TIME=500
+| Running process: P7
+| RR Queue 1: 
+| RR Queue 2: 
+| FCFS Queue 3: 
+| IO Status: [P1, Remain: 51][P3, Remain: 51][P4, Remain: 6][P5, Remain: 1][P6, Remain: 56]
+| Processes completed: [P0][P2]
+
+ /Context Switch TIME=501
+| Running process: P5
+| RR Queue 1: 
+| RR Queue 2: 
+| FCFS Queue 3: [P7, Burst: 13]
+| IO Status: [P1, Remain: 50][P3, Remain: 50][P4, Remain: 5][P6, Remain: 55]
+| Processes completed: [P0][P2]
+
+ /Context Switch TIME=503
+| Running process: P5
+| RR Queue 1: 
+| RR Queue 2: 
+| FCFS Queue 3: [P7, Burst: 13]
+| IO Status: [P1, Remain: 48][P3, Remain: 48][P4, Remain: 3][P6, Remain: 53]
+| Processes completed: [P0][P2]
+
+ /Context Switch TIME=506
+| Running process: P4
+| RR Queue 1: 
+| RR Queue 2: 
+| FCFS Queue 3: [P7, Burst: 13][P5, Burst: 8]
+| IO Status: [P1, Remain: 45][P3, Remain: 45][P6, Remain: 50]
+| Processes completed: [P0][P2]
+
+ /Context Switch TIME=508
+| Running process: P4
+| RR Queue 1: 
+| RR Queue 2: 
+| FCFS Queue 3: [P7, Burst: 13][P5, Burst: 8]
+| IO Status: [P1, Remain: 43][P3, Remain: 43][P6, Remain: 48]
+| Processes completed: [P0][P2]
+
+ /Context Switch TIME=509
+| Running process: P7
+| RR Queue 1: 
+| RR Queue 2: 
+| FCFS Queue 3: [P5, Burst: 8]
+| IO Status: [P1, Remain: 42][P3, Remain: 42][P4, Remain: 77][P6, Remain: 47]
+| Processes completed: [P0][P2]
+
+ /Context Switch TIME=522
+| Running process: P5
+| RR Queue 1: 
+| RR Queue 2: 
+| FCFS Queue 3: 
+| IO Status: [P1, Remain: 29][P3, Remain: 29][P4, Remain: 64][P6, Remain: 34][P7, Remain: 21]
+| Processes completed: [P0][P2]
+
+ /Context Switch TIME=542
+| Running process: P7
+| RR Queue 1: 
+| RR Queue 2: 
+| FCFS Queue 3: 
+| IO Status: [P1, Remain: 8][P3, Remain: 8][P4, Remain: 43][P5, Remain: 16][P6, Remain: 13]
+| Processes completed: [P0][P2]
+
+ /Context Switch TIME=551
+| Running process: P1
+| RR Queue 1: [P3, Burst: 12]
+| RR Queue 2: [P3, Burst: 12]
+| FCFS Queue 3: [P3, Burst: 12][P7, Burst: 8]
+| IO Status: [P4, Remain: 35][P5, Remain: 8][P6, Remain: 5]
+| Processes completed: [P0][P2]
+
+ /Context Switch TIME=553
+| Running process: P3
+| RR Queue 1: 
+| RR Queue 2: [P1, Burst: 17]
+| FCFS Queue 3: [P1, Burst: 17][P7, Burst: 8]
+| IO Status: [P4, Remain: 33][P5, Remain: 6][P6, Remain: 3]
+| Processes completed: [P0][P2]
+
+ /Context Switch TIME=555
+| Running process: P1
+| RR Queue 1: 
+| RR Queue 2: [P3, Burst: 10]
+| FCFS Queue 3: [P3, Burst: 10][P7, Burst: 8]
+| IO Status: [P4, Remain: 31][P5, Remain: 4][P6, Remain: 1]
+| Processes completed: [P0][P2]
+
+ /Context Switch TIME=556
+| Running process: P6
+| RR Queue 1: 
+| RR Queue 2: [P3, Burst: 10]
+| FCFS Queue 3: [P3, Burst: 10][P7, Burst: 8][P1, Burst: 16]
+| IO Status: [P4, Remain: 30][P5, Remain: 3]
+| Processes completed: [P0][P2]
+
+ /Context Switch TIME=558
+| Running process: P3
+| RR Queue 1: 
+| RR Queue 2: [P6, Burst: 20]
+| FCFS Queue 3: [P6, Burst: 20][P7, Burst: 8][P1, Burst: 16]
+| IO Status: [P4, Remain: 28][P5, Remain: 1]
+| Processes completed: [P0][P2]
+
+ /Context Switch TIME=559
+| Running process: P5
+| RR Queue 1: 
+| RR Queue 2: [P6, Burst: 20]
+| FCFS Queue 3: [P6, Burst: 20][P7, Burst: 8][P1, Burst: 16][P3, Burst: 9]
+| IO Status: [P4, Remain: 27]
+| Processes completed: [P0][P2]
+
+ /Context Switch TIME=561
+| Running process: P6
+| RR Queue 1: 
+| RR Queue 2: [P5, Burst: 9]
+| FCFS Queue 3: [P5, Burst: 9][P7, Burst: 8][P1, Burst: 16][P3, Burst: 9]
+| IO Status: [P4, Remain: 25]
+| Processes completed: [P0][P2]
+
+ /Context Switch TIME=581
+| Running process: P5
+| RR Queue 1: 
+| RR Queue 2: 
+| FCFS Queue 3: [P7, Burst: 8][P1, Burst: 16][P3, Burst: 9]
+| IO Status: [P4, Remain: 5][P6, Remain: 31]
+| Processes completed: [P0][P2]
+
+ /Context Switch TIME=586
+| Running process: P4
+| RR Queue 1: 
+| RR Queue 2: 
+| FCFS Queue 3: [P7, Burst: 8][P1, Burst: 16][P3, Burst: 9][P5, Burst: 4]
+| IO Status: [P6, Remain: 26]
+| Processes completed: [P0][P2]
+
+ /Context Switch TIME=588
+| Running process: P4
+| RR Queue 1: 
+| RR Queue 2: 
+| FCFS Queue 3: [P7, Burst: 8][P1, Burst: 16][P3, Burst: 9][P5, Burst: 4]
+| IO Status: [P6, Remain: 24]
+| Processes completed: [P0][P2]
+
+ /Context Switch TIME=590
+| Running process: P7
+| RR Queue 1: 
+| RR Queue 2: 
+| FCFS Queue 3: [P1, Burst: 16][P3, Burst: 9][P5, Burst: 4]
+| IO Status: [P4, Remain: 61][P6, Remain: 22]
+| Processes completed: [P0][P2]
+
+ /Context Switch TIME=598
+| Running process: P1
+| RR Queue 1: 
+| RR Queue 2: 
+| FCFS Queue 3: [P3, Burst: 9][P5, Burst: 4]
+| IO Status: [P4, Remain: 53][P6, Remain: 14][P7, Remain: 43]
+| Processes completed: [P0][P2]
+
+ /Context Switch TIME=612
+| Running process: P6
+| RR Queue 1: 
+| RR Queue 2: 
+| FCFS Queue 3: [P3, Burst: 9][P5, Burst: 4][P1, Burst: 2]
+| IO Status: [P4, Remain: 39][P7, Remain: 29]
+| Processes completed: [P0][P2]
+
+ /Context Switch TIME=614
+| Running process: P6
+| RR Queue 1: 
+| RR Queue 2: 
+| FCFS Queue 3: [P3, Burst: 9][P5, Burst: 4][P1, Burst: 2]
+| IO Status: [P4, Remain: 37][P7, Remain: 27]
+| Processes completed: [P0][P2]
+
+ /Context Switch TIME=633
+| Running process: P3
+| RR Queue 1: 
+| RR Queue 2: 
+| FCFS Queue 3: [P5, Burst: 4][P1, Burst: 2]
+| IO Status: [P4, Remain: 18][P6, Remain: 43][P7, Remain: 8]
+| Processes completed: [P0][P2]
+
+ /Context Switch TIME=641
+| Running process: P7
+| RR Queue 1: 
+| RR Queue 2: 
+| FCFS Queue 3: [P5, Burst: 4][P1, Burst: 2][P3, Burst: 1]
+| IO Status: [P4, Remain: 10][P6, Remain: 35]
+| Processes completed: [P0][P2]
+
+ /Context Switch TIME=643
+| Running process: P7
+| RR Queue 1: 
+| RR Queue 2: 
+| FCFS Queue 3: [P5, Burst: 4][P1, Burst: 2][P3, Burst: 1]
+| IO Status: [P4, Remain: 8][P6, Remain: 33]
+| Processes completed: [P0][P2]
+
+ /Context Switch TIME=651
+| Running process: P4
+| RR Queue 1: 
+| RR Queue 2: 
+| FCFS Queue 3: [P5, Burst: 4][P1, Burst: 2][P3, Burst: 1][P7, Burst: 2]
+| IO Status: [P6, Remain: 25]
+| Processes completed: [P0][P2]
+
+ /Context Switch TIME=653
+| Running process: P4
+| RR Queue 1: 
+| RR Queue 2: 
+| FCFS Queue 3: [P5, Burst: 4][P1, Burst: 2][P3, Burst: 1][P7, Burst: 2]
+| IO Status: [P6, Remain: 23]
+| Processes completed: [P0][P2]
+
+ /Context Switch TIME=654
+| Running process: P5
+| RR Queue 1: 
+| RR Queue 2: 
+| FCFS Queue 3: [P1, Burst: 2][P3, Burst: 1][P7, Burst: 2]
+| IO Status: [P4, Remain: 42][P6, Remain: 22]
+| Processes completed: [P0][P2]
+
+ /Context Switch TIME=658
+| Running process: P1
+| RR Queue 1: 
+| RR Queue 2: 
+| FCFS Queue 3: [P3, Burst: 1][P7, Burst: 2]
+| IO Status: [P4, Remain: 38][P6, Remain: 18]
+| Processes completed: [P0][P2][P5]
+
+ /Context Switch TIME=660
+| Running process: P3
+| RR Queue 1: 
+| RR Queue 2: 
+| FCFS Queue 3: [P7, Burst: 2]
+| IO Status: [P1, Remain: 32][P4, Remain: 36][P6, Remain: 16]
+| Processes completed: [P0][P2][P5]
+
+ /Context Switch TIME=661
+| Running process: P7
+| RR Queue 1: 
+| RR Queue 2: 
+| FCFS Queue 3: 
+| IO Status: [P1, Remain: 31][P3, Remain: 72][P4, Remain: 35][P6, Remain: 15]
+| Processes completed: [P0][P2][P5]
+
+ /Context Switch TIME=675
+| Running process: P6
+| RR Queue 1: 
+| RR Queue 2: 
+| FCFS Queue 3: 
+| IO Status: [P1, Remain: 16][P3, Remain: 57][P4, Remain: 20][P7, Remain: 18]
+| Processes completed: [P0][P2][P5]
+
+ /Context Switch TIME=692
+| Running process: P1
+| RR Queue 1: 
+| RR Queue 2: 
+| FCFS Queue 3: [P6, Burst: 4]
+| IO Status: [P3, Remain: 41][P4, Remain: 4][P7, Remain: 2]
+| Processes completed: [P0][P2][P5]
+
+ /Context Switch TIME=694
+| Running process: P7
+| RR Queue 1: 
+| RR Queue 2: [P1, Burst: 8]
+| FCFS Queue 3: [P1, Burst: 8][P6, Burst: 4]
+| IO Status: [P3, Remain: 39][P4, Remain: 2]
+| Processes completed: [P0][P2][P5]
+
+ /Context Switch TIME=696
+| Running process: P4
+| RR Queue 1: 
+| RR Queue 2: [P1, Burst: 8][P7, Burst: 11]
+| FCFS Queue 3: [P1, Burst: 8][P7, Burst: 11][P6, Burst: 4]
+| IO Status: [P3, Remain: 37]
+| Processes completed: [P0][P2][P5]
+
+ /Context Switch TIME=698
+| Running process: P1
+| RR Queue 1: 
+| RR Queue 2: [P7, Burst: 11][P4, Burst: 3]
+| FCFS Queue 3: [P7, Burst: 11][P4, Burst: 3][P6, Burst: 4]
+| IO Status: [P3, Remain: 35]
+| Processes completed: [P0][P2][P5]
+
+ /Context Switch TIME=706
+| Running process: P7
+| RR Queue 1: 
+| RR Queue 2: [P4, Burst: 3]
+| FCFS Queue 3: [P4, Burst: 3][P6, Burst: 4]
+| IO Status: [P3, Remain: 27]
+| Processes completed: [P0][P1][P2][P5]
+
+ /Context Switch TIME=717
+| Running process: P4
+| RR Queue 1: 
+| RR Queue 2: 
+| FCFS Queue 3: [P6, Burst: 4]
+| IO Status: [P3, Remain: 16][P7, Remain: 32]
+| Processes completed: [P0][P1][P2][P5]
+
+ /Context Switch TIME=720
+| Running process: P6
+| RR Queue 1: 
+| RR Queue 2: 
+| FCFS Queue 3: 
+| IO Status: [P3, Remain: 13][P7, Remain: 29]
+| Processes completed: [P0][P1][P2][P4][P5]
+
+ /Context Switch TIME=732
+| Running process: P3
+| RR Queue 1: 
+| RR Queue 2: 
+| FCFS Queue 3: 
+| IO Status: [P7, Remain: 16]
+| Processes completed: [P0][P1][P2][P4][P5][P6]
+
+ /Context Switch TIME=748
+| Running process: P7
+| RR Queue 1: 
+| RR Queue 2: 
+| FCFS Queue 3: 
+| IO Status: [P3, Remain: 65]
+| Processes completed: [P0][P1][P2][P4][P5][P6]
+
+ /Context Switch TIME=813
+| Running process: P3
+| RR Queue 1: 
+| RR Queue 2: 
+| FCFS Queue 3: 
+| IO Status: 
+| Processes completed: [P0][P1][P2][P4][P5][P6][P7]
+
+ML_FQ(): Ucpu: 0.892512077294686, WT: 254.875, TR: 660.5, R: 7.0
+-----------------------------------------
+

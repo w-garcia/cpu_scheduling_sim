@@ -45,6 +45,7 @@ class CPU_Scheduler:
         self.current_process = self.get_next_context()
         work_to_do = len(self.processes)
         time = 0
+        self.print_cs_stats(time)
         while work_to_do:
             if self.current_process is None:
                 # No process is ready for CPU
@@ -53,6 +54,7 @@ class CPU_Scheduler:
                 # Check ready queue for any ready
                 if self.ready_queue:
                     self.current_process = self.get_next_context()
+                    self.print_cs_stats(time)
 
                 time += 1
                 continue
@@ -82,7 +84,9 @@ class CPU_Scheduler:
                 # Switch context
                 if self.ready_queue:
                     self.current_process = self.get_next_context()
-                    logging.debug("Switched to {} at t = {}".format(self.current_process.id, time))
+                    #logging.debug("Switched to {} at t = {}".format(self.current_process.id, time))
+                    self.print_cs_stats(time)
+
                 else:
                     self.current_process = None
 
@@ -97,6 +101,28 @@ class CPU_Scheduler:
         """
         return self.processes[self.ready_queue.pop(0)]
 
+    def print_cs_stats(self, t):
+        result = ""
+        result += " /Context Switch TIME={}\n".format(t)
+        result += "| Running process: P{}\n".format(self.current_process.id)
+        queue_print = ""
+        for i in self.ready_queue:
+            proc = self.processes[i]
+            queue_print += "[P{}, Burst: {}]".format(proc.id, proc.current_timer)
+        result += "| Ready Queue: {}\n".format(queue_print)
+        io_print = ""
+        comp_print = ""
+        for i in self.processes:
+            proc = i
+            if proc.status == STATUS.Waiting:
+                io_print += "[P{}, Remain: {}]".format(proc.id, proc.current_timer)
+            elif proc.status == STATUS.Terminated:
+                comp_print += "[P{}]".format(proc.id)
+
+        result += "| IO Status: {}\n".format(io_print)
+        result += "| Processes completed: {}\n".format(comp_print)
+        print(result)
+
     def analyze(self):
         avg_wait = 0.0
         avg_tr = 0.0
@@ -110,6 +136,7 @@ class CPU_Scheduler:
 
         n = len(self.processes)
         print("{}: Ucpu: {}, WT: {}, TR: {}, R: {}".format(self, self.used_time / self.total_time, avg_wait / n, avg_tr / n, avg_r / n))
+        print("-----------------------------------------\n")
 
     def update_all_processes(self):
         self.current_process.update(True)
@@ -169,6 +196,40 @@ class ML_FQ(CPU_Scheduler):
     def __str__(self):
         return "ML_FQ()"
 
+    def print_cs_stats(self, t):
+        result = ""
+        result += " /Context Switch TIME={}\n".format(t)
+        result += "| Running process: P{}\n".format(self.current_process.id)
+        queue_print = ""
+        for i in self.ready_queue:
+            proc = self.processes[i]
+            queue_print += "[P{}, Burst: {}]".format(proc.id, proc.current_timer)
+        result += "| RR Queue 1: {}\n".format(queue_print)
+
+        for i in self.second_queue:
+            proc = self.processes[i]
+            queue_print += "[P{}, Burst: {}]".format(proc.id, proc.current_timer)
+        result += "| RR Queue 2: {}\n".format(queue_print)
+
+        for i in self.third_queue:
+            proc = self.processes[i]
+            queue_print += "[P{}, Burst: {}]".format(proc.id, proc.current_timer)
+        result += "| FCFS Queue 3: {}\n".format(queue_print)
+
+        io_print = ""
+        comp_print = ""
+        for i in self.processes:
+            proc = i
+            if proc.status == STATUS.Waiting:
+                io_print += "[P{}, Remain: {}]".format(proc.id, proc.current_timer)
+            elif proc.status == STATUS.Terminated:
+                comp_print += "[P{}]".format(proc.id)
+
+        result += "| IO Status: {}\n".format(io_print)
+        result += "| Processes completed: {}\n".format(comp_print)
+        print(result)
+
+
     def get_next_context(self):
         if self.ready_queue:
             return self.processes[self.ready_queue.pop(0)]
@@ -196,6 +257,7 @@ class ML_FQ(CPU_Scheduler):
         self.current_process = self.get_next_context()
         work_to_do = len(self.processes)
         time = 0
+        self.print_cs_stats(time)
         while work_to_do:
             if self.current_process is None:
                 # No process is ready for CPU
@@ -204,6 +266,7 @@ class ML_FQ(CPU_Scheduler):
                 # Check ready queue for any ready
                 if self.ready_queue:
                     self.current_process = self.get_next_context()
+                    self.print_cs_stats(time)
 
                 time += 1
                 continue
@@ -241,7 +304,8 @@ class ML_FQ(CPU_Scheduler):
             self.current_process = self.get_next_context()
             if self.current_process is None:
                 return
-            logging.debug("Switched to {} at t = {}".format(self.current_process.id, time))
+            #logging.debug("Switched to {} at t = {}".format(self.current_process.id, time))
+            self.print_cs_stats(time)
         elif self.current_process.status == STATUS.Running:
             # Enforce time quauntum first
 
@@ -266,7 +330,8 @@ class ML_FQ(CPU_Scheduler):
                 self.current_process.quantum = 0
 
                 self.current_process = self.get_next_context()
-                logging.debug("Switched to {} at t = {}".format(self.current_process.id, time))
+                #logging.debug("Switched to {} at t = {}".format(self.current_process.id, time))
+                self.print_cs_stats(time)
 
             else:
                 # time-quantum not met (or process was lowest priority), but enforce preemptive nature
@@ -280,7 +345,8 @@ class ML_FQ(CPU_Scheduler):
                     parent_queue.append(self.current_process.id)
 
                     self.current_process = self.get_next_context()
-                    logging.debug("Switched to {} at t = {}".format(self.current_process.id, time))
+                    self.print_cs_stats(time)
+                    #logging.debug("Switched to {} at t = {}".format(self.current_process.id, time))
 
 
 def main():
