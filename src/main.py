@@ -127,15 +127,19 @@ class CPU_Scheduler:
         avg_wait = 0.0
         avg_tr = 0.0
         avg_r = 0.0
+        p_to_times_list = []
         for p in self.processes:
             avg_tr += p.turnaround_time
             avg_wait += p.waiting_time
             avg_r += p.response_time
+            p_to_times_list.append({'id': p.id, 'wt': p.waiting_time, 'tt': p.turnaround_time, 'rt': p.response_time})
             #self.stats[p.id]['t'] = p.turnaround_time - p.waiting_time
             #print("P{} {} {} {}".format(p.id, p.waiting_time, p.response_time, p.turnaround_time))
 
         n = len(self.processes)
-        print("{}: Ucpu: {}, WT: {}, TR: {}, R: {}".format(self, self.used_time / self.total_time, avg_wait / n, avg_tr / n, avg_r / n))
+        print("{}: Ucpu: {}, WT: {}, TT: {}, RT: {}, T_total: {}".format(self, self.used_time / self.total_time, avg_wait / n, avg_tr / n, avg_r / n, self.total_time))
+        for p in p_to_times_list:
+            print(p)
         print("-----------------------------------------\n")
 
     def update_all_processes(self):
